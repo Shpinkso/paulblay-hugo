@@ -23,13 +23,16 @@
     <loc>http://localhost:1313/hugo-universal-theme/tags/embedded/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/focus-on-outcomes-with-okrs/</loc>
+    <lastmod>2025-07-09T11:46:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-okr-scorecard/</loc>
+    <lastmod>2025-07-09T11:46:20+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/hugo-universal-theme/tags/ipsum/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugo-universal-theme/categories/lorem/</loc>
-    <lastmod>2025-07-09T11:46:20+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-okr-scorecard/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugo-universal-theme/</loc>
@@ -44,35 +47,17 @@
     <loc>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-agility-challenge-for-embedded-software/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/tags/golang/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/tags/hugo/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/authors/jane-doe/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/authors/john-doe/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/blog/2015/10/02/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/categories/programming/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/tags/programming/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/tags/theme/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/hugo-universal-theme/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugo-universal-theme/blog/2015/09/17/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-universal-theme/categories/programming/</loc>
+    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-universal-theme/tags/hugo/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugo-universal-theme/blog/2015/08/03/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
@@ -83,7 +68,13 @@
     <loc>http://localhost:1313/hugo-universal-theme/blog/2015/06/24/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/hugo-universal-theme/authors/jane-doe/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/hugo-universal-theme/categories/starting/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-universal-theme/tags/theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugo-universal-theme/contact/</loc>

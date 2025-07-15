@@ -30,38 +30,24 @@
       <description></description>
     </item>
     <item>
-      <title>Golang</title>
-      <link>http://localhost:1313/hugo-universal-theme/tags/golang/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/tags/golang/</guid>
+      <title>Go</title>
+      <link>http://localhost:1313/hugo-universal-theme/tags/go/</link>
+      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
       <link>http://localhost:1313/hugo-universal-theme/tags/hugo/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       <guid>http://localhost:1313/hugo-universal-theme/tags/hugo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>http://localhost:1313/hugo-universal-theme/tags/programming/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Theme</title>
       <link>http://localhost:1313/hugo-universal-theme/tags/theme/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       <guid>http://localhost:1313/hugo-universal-theme/tags/theme/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Go</title>
-      <link>http://localhost:1313/hugo-universal-theme/tags/go/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/tags/go/</guid>
       <description></description>
     </item>
   </channel>

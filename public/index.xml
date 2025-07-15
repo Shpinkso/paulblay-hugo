@@ -9,11 +9,18 @@
     <lastBuildDate>Wed, 09 Jul 2025 11:46:20 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/hugo-universal-theme/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Migrate from Jekyll</title>
+      <title>Focus on outcomes with OKRs</title>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/focus-on-outcomes-with-okrs/</link>
+      <pubDate>Wed, 09 Jul 2025 11:46:20 +0100</pubDate>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/focus-on-outcomes-with-okrs/</guid>
+      <description>&lt;p&gt;If you’re interested in a way to tap into your team or companies creative potential, generating alignment and delivering tangible value, then OKRs should be your first port of call.&lt;/p&gt;&#xA;&lt;p&gt;I was fortunate enough to have met, and worked closely with &lt;a href=&#34;http://raganmcgill.co.uk/&#34;&gt;Ragan McGill&lt;/a&gt; while I was at DisplayLink. Ragan had experienced both effective and underwhelming use of OKRs in his career and gave a set of training on how to ensure that they are well formed and deliver on their potential.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introducing the OKR ScoreCard</title>
       <link>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-okr-scorecard/</link>
       <pubDate>Wed, 09 Jul 2025 11:46:20 +0100</pubDate>
       <guid>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-okr-scorecard/</guid>
-      <description>&lt;h1 id=&#34;introducing-the-okr-scorecard&#34;&gt;Introducing the OKR ScoreCard&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;img/OKR_Scorecard/OKRs_why-1024x227-1.png&#34; alt=&#34;OKRs_why&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;So let’s assume we’re using OKRs now. We’ve come up with some Objectives and tried to find meaningful measures for our Key Results that we think will help us ensure we’re going in the right direction.&lt;/p&gt;&#xA;&lt;p&gt;It’s important to remind ourselves that OKRs are just a tool. Using an ORK framework doesn’t necessarily ensure that we’re getting any tangible benefits over any other approach.&lt;/p&gt;&#xA;&lt;p&gt;For example, the next two OKR examples for our imaginary TownTalk ™ product both provide an objective and measurable KRs against it, but do both really unlock the same value?&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo-universal-theme/img/OKR_Scorecard/OKRs_why-1024x227-1.png&#34; alt=&#34;OKRs_why&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;So let’s assume we’re using OKRs now. We’ve come up with some Objectives and tried to find meaningful measures for our Key Results that we think will help us ensure we’re going in the right direction.&lt;/p&gt;&#xA;&lt;p&gt;It’s important to remind ourselves that OKRs are just a tool. Using an ORK framework doesn’t necessarily ensure that we’re getting any tangible benefits over any other approach.&lt;/p&gt;&#xA;&lt;p&gt;For example, the next two OKR examples for our imaginary TownTalk ™ product both provide an objective and measurable KRs against it, but do both really unlock the same value?&lt;/p&gt;</description>
     </item>
     <item>
       <title>The agility Challenge for Embedded Software</title>
@@ -21,13 +28,6 @@
       <pubDate>Wed, 09 Jul 2025 11:46:20 +0100</pubDate>
       <guid>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-agility-challenge-for-embedded-software/</guid>
       <description>&lt;p&gt;If you’ve ever worked for a business that has it’s core focus in the embedded software space, I suspect you are more likely to have had to tolerate software development practices from 20 years ago. If you’ve read many books on Agile software development, DevOps or other modern practices, you may also have noticed that they almost all talk about software that targets a server or website, possibly a PC. But unless you’re reading a very different library to me, you’ll not have seen much talk about embedded software. Why is this?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Linked post</title>
-      <link>http://localhost:1313/hugo-universal-theme/blog/2015/10/02/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/blog/2015/10/02/linked-post/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;menu = &amp;quot;main&amp;quot;&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Go is for lovers</title>
