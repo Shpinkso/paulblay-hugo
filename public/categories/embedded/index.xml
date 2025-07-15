@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/hugo-universal-theme/categories/embedded/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The agility Challenge for Embedded Software</title>
-      <link>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/categories-post/</link>
+      <link>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-agility-challenge-for-embedded-software/</link>
       <pubDate>Wed, 09 Jul 2025 11:46:20 +0100</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/categories-post/</guid>
+      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-agility-challenge-for-embedded-software/</guid>
       <description>&lt;p&gt;If you’ve ever worked for a business that has it’s core focus in the embedded software space, I suspect you are more likely to have had to tolerate software development practices from 20 years ago. If you’ve read many books on Agile software development, DevOps or other modern practices, you may also have noticed that they almost all talk about software that targets a server or website, possibly a PC. But unless you’re reading a very different library to me, you’ll not have seen much talk about embedded software. Why is this?&lt;/p&gt;</description>
     </item>
   </channel>

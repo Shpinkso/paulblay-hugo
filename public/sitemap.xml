@@ -23,6 +23,15 @@
     <loc>http://localhost:1313/hugo-universal-theme/tags/embedded/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/hugo-universal-theme/tags/ipsum/</loc>
+    <lastmod>2025-07-09T11:46:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-universal-theme/categories/lorem/</loc>
+    <lastmod>2025-07-09T11:46:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-okr-scorecard/</loc>
+    <lastmod>2025-07-09T11:46:20+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/hugo-universal-theme/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
@@ -32,7 +41,7 @@
     <loc>http://localhost:1313/hugo-universal-theme/tags/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/categories-post/</loc>
+    <loc>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-agility-challenge-for-embedded-software/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugo-universal-theme/tags/golang/</loc>
@@ -80,11 +89,5 @@
     <loc>http://localhost:1313/hugo-universal-theme/contact/</loc>
   </url><url>
     <loc>http://localhost:1313/hugo-universal-theme/faq/</loc>
-  </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/tags/ipsum/</loc>
-  </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/categories/lorem/</loc>
-  </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/blog/1/01/01/migrate-from-jekyll/</loc>
   </url>
 </urlset>

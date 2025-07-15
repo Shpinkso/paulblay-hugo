@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head><script src="/hugo-universal-theme/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-universal-theme/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Migrate from Jekyll</title>
+<meta name="author" content="DevCows" />
+
+
+
+
+<meta name="keywords" content="devcows, hugo, go, ipsum">
+
+
+<meta name="description" content="Site template made by Devcows using Hugo">
+
+<meta name="generator" content="Hugo 0.148.0">
+
+
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v6.7.2/css/all.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+
+<link href="/hugo-universal-theme/css/animate.css" rel="stylesheet">
+
+
+
+  <link href="/hugo-universal-theme/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+
+
+
+<link href="/hugo-universal-theme/css/custom.css?1752587316" rel="stylesheet">
+
+
+
+  <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+<link rel="shortcut icon" href="/hugo-universal-theme/img/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/hugo-universal-theme/img/apple-touch-icon.png" />
+
+
+<link href="/hugo-universal-theme/css/owl.carousel.css" rel="stylesheet">
+<link href="/hugo-universal-theme/css/owl.theme.css" rel="stylesheet">
+
+
+<link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="My New Hugo Site">
+
+
+
+
+
+
+
+<meta property="og:updated_time" content="2025-07-09T11:46:20&#43;0100">
+
+  
+  
+  <meta property="article:section" content="lorem">
+  <meta property="article:tag" content="ipsum">
+  
+  
+  <meta property="article:published_time" content="2025-07-09T11:46:20&#43;0100">
+  <meta property="article:modified_time" content="2025-07-09T11:46:20&#43;0100">
+
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@GoHugoIO">
+<meta name="twitter:title" content="Migrate from Jekyll">
+
+<meta name="twitter:description" content="Site template made by Devcows using Hugo">
+
+
+    
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        
+<header>
+  <div id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-5">
+          <p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+      </p>
+      
+        </div>
+        <div class="col-xs-7">
+          <div class="social">
+            
+            <a href="tel:&#43;12%2034%20567%2089%2001" target="_blank" style="opacity: 1;"><i class='fas fa-2x fa-phone'></i></a>
+            
+            <a href="https://github.com/devcows/hugo-universal-theme" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-github'></i></a>
+            
+            <a href="https://facebook.com" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-facebook'></i></a>
+            
+            <a href="https://x.com" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-x-twitter'></i></a>
+            
+            <a href="mailto:hello@universal.com" target="_blank" style="opacity: 1;"><i class='fas fa-2x fa-envelope'></i></a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+        <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
+    <div class="navbar navbar-default yamm " role="navigation" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="/">
+                    
+                      <img src="/hugo-universal-theme/img/logo.png" alt="Migrate from Jekyll logo" class="hidden-xs hidden-sm" />
+                      <img src="/hugo-universal-theme/img/logo-small.png" alt="Migrate from Jekyll logo" class="visible-xs visible-sm" />
+                    
+                    <span class="sr-only">Migrate from Jekyll - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                    
+                    
+                    <li class="dropdown ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
+                        
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="/hugo-universal-theme/">Option 1: Default Page</a></li>
+                            
+                            <li><a href="/hugo-universal-theme/">Option 2: Application</a></li>
+                            
+                            <li><a href="/hugo-universal-theme/">Option 3: Startup</a></li>
+                            
+                            <li><a href="/hugo-universal-theme/">Option 4: Agency</a></li>
+                            
+                            <li><a href="/hugo-universal-theme/">Option 5: Portfolio</a></li>
+                            
+                        </ul>
+                        
+                    </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                    
+                    
+                    <li class="dropdown use-yamm yamm-fw ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Features <span class="caret"></span></a>
+                        
+                        <ul class="dropdown-menu">
+                            <li>
+                            <div class="yamm-content">
+                            <div class="row">
+                                
+                                <div class="col-sm-6">
+                                    <img src="/hugo-universal-theme/img/template-easy-customize.png" class="img-responsive hidden-xs"/>
+                                </div>
+                                
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                    <h5>Shortcodes</h5>
+                                    
+                                    <ul>
+                                    
+                                    <li><a href="">Accordions</a></li>
+                                    <li><a href="">Alerts</a></li>
+                                    <li><a href="">Buttons</a></li>
+                                    <li><a href="">Content Boxes</a></li>
+                                    <li><a href="">Horizontal Blocks</a></li>
+                                    <li><a href="">Pagination</a></li>
+                                    <li><a href="">Tabs</a></li>
+                                    <li><a href="">Typography</a></li>
+                                    </ul>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                </div>
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>Header variations</code></h5>
+                                    
+                                    <ul>
+                                    
+                                    <li><a href="">Default Sticky Header</a></li>
+                                    
+                                    <li><a href="">No Sticky Header</a></li>
+                                    
+                                    <li><a href="">Light Header</a></li>
+                                    
+                                    </ul>
+                                    
+                                    
+                                
+                                </div>
+                                
+                            </div>
+                            </div>
+                            </li>
+                        </ul>
+                        
+                    </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                    
+                    
+                    <li class="dropdown use-yamm yamm-fw ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
+                        
+                        <ul class="dropdown-menu">
+                            <li>
+                            <div class="yamm-content">
+                            <div class="row">
+                                
+                                <div class="col-sm-6">
+                                    <img src="/hugo-universal-theme/img/template-homepage.png" class="img-responsive hidden-xs"/>
+                                </div>
+                                
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                    <h5>Portfolio</h5>
+                                    
+                                    <ul>
+                                    
+                                    <li><a href="">2 Columns</a></li>
+                                    <li><a href="">2 Columns With Negative Space</a></li>
+                                    <li><a href="">3 Columns</a></li>
+                                    <li><a href="">3 Columns With Negative Space</a></li>
+                                    <li><a href="">4 Columns</a></li>
+                                    <li><a href="">4 Columns With Negative Space</a></li>
+                                    <li><a href="">Portfolio - detail</a></li>
+                                    <li><a href="">Portfolio - detail 2</a></li>
+                                    </ul>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                </div>
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>About</code></h5>
+                                    
+                                    <ul>
+                                    
+                                    <li><a href="">About Us</a></li>
+                                    
+                                    <li><a href="">Our Team</a></li>
+                                    
+                                    </ul>
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>Marketing</code></h5>
+                                    
+                                    <ul>
+                                    
+                                    <li><a href="">Packages</a></li>
+                                    
+                                    </ul>
+                                    
+                                    
+                                
+                                </div>
+                                
+                            </div>
+                            </div>
+                            </li>
+                        </ul>
+                        
+                    </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                    
+                    
+                    <li class="dropdown use-yamm yamm-fw ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">All Pages <span class="caret"></span></a>
+                        
+                        <ul class="dropdown-menu">
+                            <li>
+                            <div class="yamm-content">
+                            <div class="row">
+                                
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>Home</h5>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>About</h5>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>Marketing</h5>
+                                    
+                                    
+                                
+                                </div>
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>Portfolio</code></h5>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>User Pages</code></h5>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                </div>
+                                
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>Shop</code></h5>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>Shop - Order Process</code></h5>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                </div>
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                    <h5>Contact</code></h5>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>Pages</code></h5>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>Blog</code></h5>
+                                    
+                                    <ul>
+                                    
+                                    <li><a href="/hugo-universal-theme/blog/">Blog Listing Big</a></li>
+                                    
+                                    </ul>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                </div>
+                                
+                            </div>
+                            </div>
+                            </li>
+                        </ul>
+                        
+                    </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/hugo-universal-theme/blog/">Blog</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/hugo-universal-theme/faq/">FAQ</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/hugo-universal-theme/contact/">Contact</a>
+                  </li>
+                  
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</header>
+
+
+
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Migrate from Jekyll</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">
+
+                        
+                          <p class="text-muted text-uppercase mb-small text-right">
+                            
+			      By <a href="/hugo-universal-theme/authors/paul-blay">Paul Blay</a>
+                            
+                            
+                            
+                              
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                              July 9, 2025
+                            
+                          </p>
+                        
+
+                        <div id="post-content">
+                          <h1 id="introducing-the-okr-scorecard">Introducing the OKR ScoreCard</h1>
+<p><img src="img/OKR_Scorecard/OKRs_why-1024x227-1.png" alt="OKRs_why"></p>
+<p>So let’s assume we’re using OKRs now. We’ve come up with some Objectives and tried to find meaningful measures for our Key Results that we think will help us ensure we’re going in the right direction.</p>
+<p>It’s important to remind ourselves that OKRs are just a tool. Using an ORK framework doesn’t necessarily ensure that we’re getting any tangible benefits over any other approach.</p>
+<p>For example, the next two OKR examples for our imaginary TownTalk ™ product both provide an objective and measurable KRs against it, but do both really unlock the same value?</p>
+<h2 id="okr-1">OKR 1</h2>
+<p><strong>Objective</strong>: Deliver against the TownTalk Product Requirements Document</p>
+<p><strong>KRs</strong>:</p>
+<ul>
+<li>Go from 0 to 100 mandatory features complete</li>
+<li>Go from 0 to 20 desired features complete</li>
+<li>Package is released through Cognidox</li>
+</ul>
+<h2 id="okr-2">OKR 2</h2>
+<p><strong>Objective</strong>: TownTalk makes highstreets more vibrant and social than they have ever been, so that businesses and people are healthier.</p>
+<p><strong>KRs</strong>:</p>
+<ul>
+<li>TownTalk users highstreet visits go from 1 to 10 per month</li>
+<li>TownTalk users increase from 100 to 1000</li>
+<li>TownTalk users report a ‘community interaction’ score of over 8/10</li>
+</ul>
+<hr>
+<p>I hope it’s pretty clear that OKR 1 has a lot to be desired (and if it doesn’t make you want to keel over with boredom, I don’t know what will). So much so that one might wonder what value an OKR framework really brings.</p>
+<p>However, I have observed many more OKR 1 style OKRs in my career than OKR 2 style. I suspect there are many reasons for this, but one of the most compelling might be just about how much effort needs to go into the OKR creation in the first place. I created both of these OKRs just from the top of my head and I can honestly say that OKR 1 took me about 2 minutes to create whereas OKR 2 took about 20 minutes with several refinements – and that was without the constraints of reality or any consideration/agreement around other contributors ideas.</p>
+<p>If OKRs are not treated as first class citizens, or being given the priority, time and focus required to develop and review them, they can easily become misused and stop providing the benefits you’re looking for.</p>
+<p>Does this all mean that OKR 1 is of zero value? Do all OKR attempts fall into categories of “bad” or “good”?<br>
+I’d suggest not. There are several ways in which OKRs can provide value, and the more of those ways are enabled, the better. Having said that, sometimes we’re constrained by what we can measure, or we’re on a journey as a company and don’t want to overwhelm teams with a sudden, drastic change.</p>
+<p>Wouldn’t it be nice if we had some sort of scoring mechanism for how “mature” an OKR is?</p>
+<h2 id="put-your-okrs-on-a-maturity-scale">Put your OKRs on a maturity scale</h2>
+<p>While I was running an OKRs CoP at work, we identified that being able to ‘score’ OKRs on a scale would allow us to try and make ours better over time. There didn’t seem to be anything on the internet that provided what we wanted, so I came up with something the group could review and refine.</p>
+<p>This is how it works:</p>
+<h3 id="objective-scoring">Objective Scoring</h3>
+<p>Out of ten, score:</p>
+<ul>
+<li>Is inspiring to me</li>
+<li>Represents an important impact in the world</li>
+<li>I understand why</li>
+</ul>
+<p>Then apply multipliers:</p>
+<ul>
+<li>Represents value for the business
+<ol>
+<li>No Value (0)</li>
+<li>Indirect Monetary Value (1)</li>
+<li>Direct Monetary Value (2)</li>
+</ol>
+</li>
+<li>Defines
+<ol>
+<li>What (0)</li>
+<li>How (0)</li>
+<li>Where (1)</li>
+</ol>
+</li>
+</ul>
+<h3 id="key-result-scoring">Key Result Scoring</h3>
+<p>Out of ten, score:</p>
+<ul>
+<li>Is “realised” as opposed to “delivered”</li>
+<li>I would consider reaching this as a significant aspect of the objective complete</li>
+</ul>
+<p>Then apply multipliers:</p>
+<ul>
+<li>Is numerical: Yes (2), No (1)</li>
+<li>Measurability: Is measurable now (2), Could be measured with some work (1), Cannot be measured directly (0)</li>
+<li>Represents a change in customer behaviour: Yes (2), No (1)</li>
+<li>Distribution over OKR lifetime:
+<ul>
+<li>Even distribution (2)</li>
+<li>Front/back loaded (0.5)</li>
+<li>Single event / after lifetime (0)</li>
+</ul>
+</li>
+<li>Multiple paths to achievement: Yes (1), No (0)</li>
+</ul>
+<h2 id="worked-example">Worked Example</h2>
+<p>I&rsquo;ll run through the application of the scorecard across the two OKR examples.</p>
+<h3 id="okr-1-1">OKR 1</h3>
+<p>Objective: Deliver against the TownTalk Product Requirements Document</p>
+<ul>
+<li><strong>Inspiration</strong>: 0/10</li>
+<li><strong>Impact</strong>: 1/10</li>
+<li><strong>Understand why</strong>: 0/10</li>
+<li><strong>Monetary Value</strong>: Direct (2)</li>
+<li><strong>Defines</strong>: Where (1)</li>
+</ul>
+<p>Total Objective score: <strong>2/60</strong></p>
+<p><img src="/img/OKR_Scorecard//2022-01-01-21_26_08-Window_1.png" alt="OKR1 Objective Scoring"></p>
+<p>Key Results:</p>
+<ul>
+<li>Go from 0 to 100 mandatory features complete</li>
+<li>Go from 0 to 20 desired features complete</li>
+<li>Package is released through Cognidox</li>
+</ul>
+<p>Outcome: These are mostly delivered not realised, numerical yes, measurable yes, but zero multiplier on multiple paths =&gt; poor scores.</p>
+<p><img src="img/OKR_Scorecard/2022-01-01-22_18_36-Window_2.png" alt="KR1 Scoring"></p>
+<p><img src="img/OKR_Scorecard/2022-01-01-22_21_46-Window_3.png" alt="KR2 Scoring"></p>
+<h3 id="okr-2-1">OKR 2</h3>
+<p>Objective: TownTalk makes highstreets more vibrant and social than ever before.</p>
+<ul>
+<li><strong>Inspiration</strong>: high</li>
+<li><strong>Impact</strong>: 7/10</li>
+<li><strong>Understand why</strong>: 9/10</li>
+<li><strong>Monetary Value</strong>: Direct</li>
+<li><strong>Defines</strong>: Where</li>
+</ul>
+<p>Total Objective score: <strong>48/60</strong></p>
+<p><img src="img/OKR_Scorecard/OKR2_objective_1.png" alt="OKR2 Objective Scoring"></p>
+<p>Key Results and their scores:</p>
+<ol>
+<li><strong>Highstreet visits from 1 to 10/month</strong>: <strong>144/160</strong></li>
+<li><strong>Users from 100 to 1000</strong>: <strong>96/160</strong></li>
+<li><strong>Community interaction score 8/10</strong>: <strong>80/160</strong></li>
+</ol>
+<p><img src="img/OKR_Scorecard/OKR2_KR1.png" alt="KR1 Scoring">
+<img src="img/OKR_Scorecard/OKR2_KR2.png" alt="KR2 Scoring">
+<img src="img/OKR_Scorecard/OKR2_KR3.png" alt="KR3 Scoring"></p>
+<h2 id="improvements-moving-forward">Improvements moving forward</h2>
+<p>This is my first attempt at an OKR scorecard and I hope there’s some value in the idea. Some thoughts for improvement:</p>
+<ul>
+<li>Should monetary value be removed from objective scoring?</li>
+<li>Combined KRs could be scored as a group to check if something fundamental is missing.</li>
+<li>Qualify each question to a specific OKR benefit (empowerment, alignment, progress, value-focus).</li>
+<li>Review why multipliers exist — maybe too harsh.</li>
+</ul>
+<h2 id="the-sheet">The Sheet</h2>
+<p>Here’s the scorecard sheet if you&rsquo;d like to try your own scoring:</p>
+<p><a href="/static/img/OKR_Scorecard/OKRs-scorecard.xlsx">Download the OKR Scorecard (Excel)</a></p>
+<p>Thanks for reading!</p>
+
+                        </div>
+                        
+                        
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "devcows" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search" />
+                <input type="hidden" name="sitesearch" value="http://localhost:1313/" />
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            
+            <li >
+                <a href="/hugo-universal-theme/categories/delivery">DELIVERY (1)</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/categories/embedded">EMBEDDED (1)</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/categories/lorem">LOREM (1)</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/categories/programming">PROGRAMMING (2)</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/categories/pseudo">PSEUDO (1)</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/categories/starting">STARTING (1)</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Tags</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/delivery"><i class="fas fa-tags"></i> delivery</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/embedded"><i class="fas fa-tags"></i> embedded</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/go"><i class="fas fa-tags"></i> go</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/golang"><i class="fas fa-tags"></i> golang</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/hugo"><i class="fas fa-tags"></i> hugo</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/ipsum"><i class="fas fa-tags"></i> ipsum</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/programming"><i class="fas fa-tags"></i> programming</a>
+            </li>
+            
+            <li >
+                <a href="/hugo-universal-theme/tags/theme"><i class="fas fa-tags"></i> theme</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>About us</h4>
+
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+            
+            <h4>Recent posts</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-okr-scorecard/">
+                          
+                            <img src="/hugo-universal-theme/img/banners/banner-5.jpg" class="img-responsive" alt="Migrate from Jekyll" />
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-okr-scorecard/">Migrate from Jekyll</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-agility-challenge-for-embedded-software/">
+                          
+                            <img src="/hugo-universal-theme/img/banners/banner-4.png" class="img-responsive" alt="The agility Challenge for Embedded Software" />
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-agility-challenge-for-embedded-software/">The agility Challenge for Embedded Software</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="http://localhost:1313/hugo-universal-theme/blog/2015/10/02/linked-post/">
+                          
+                            <img src="/hugo-universal-theme/img/banners/banner-4.jpg" class="img-responsive" alt="Linked post" />
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="http://localhost:1313/hugo-universal-theme/blog/2015/10/02/linked-post/">Linked post</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+            
+
+        </div>
+        
+
+        
+        <div class="col-md-4 col-sm-6">
+
+          <h4>Contact</h4>
+
+            <p class="text-uppercase"><strong>Universal Ltd.</strong>
+        <br>13/25 New Avenue
+        <br>Newtown upon River
+        <br>45Y 73J
+        <br>England
+        <br>
+        <strong>Great Britain</strong>
+      </p>
+      
+
+	    <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</p>
+            
+            <p class="pull-right">
+              Template by <a href="https://bootstrapious.com/universal-business-e-commerce-template">Bootstrapious</a>.
+              
+
+              Ported to Hugo by <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY&v=3.exp"></script>
+<script src="/hugo-universal-theme/js/hpneo.gmaps.js"></script>
+<script src="/hugo-universal-theme/js/gmaps.init.js"></script>
+
+
+<script src="/hugo-universal-theme/js/front.js"></script>
+
+
+<script src="/hugo-universal-theme/js/owl.carousel.min.js"></script>
+
+
+  </body>
+</html>
