@@ -99,27 +99,41 @@ Remember:
 ---
 ### Objectives
 
-- Objectives are Impacts
-- Make them a destination
-- Make them inspiring
-- Make them challenging
-- Explain why, use “so that”
-- Start with 1 or 2
+<div style="display: flex; align-items: center; gap: 20px;">
 
-![OKRs How](/hugo-universal-theme/img/OKR/OKRs_how-1024x660-1.png)
+<img src="/hugo-universal-theme/img/OKR/OKRs_how-1024x660-1.png" alt="OKRs How" width="300" style="flex-shrink: 0;"/>
+
+<div>
+
+- Objectives are Impacts  
+- Make them a destination  
+- Make them inspiring  
+- Make them challenging  
+- Explain why, use “so that”  
+- Start with 1 or 2  
+
+</div>
+</div>
 
 ---
 ### Key Results
 
-![Speedometer](/hugo-universal-theme/img/OKR/speedometer.png)
+<div style="display: flex; align-items: center; gap: 20px; flex-direction: row-reverse;">
 
-- KRs are Outcomes
-- Define what success looks like
-- Make them numerical
-- Use a scale that can be measured in real time (or as close as possible)
-- Avoid binary KRs
-- Avoid actions. If you can achieve it directly, it’s not a KR.
+<img src="/img/OKR/speedometer.png" alt="Speedometer" width="200" style="flex-shrink: 0;"/>
+
+<div>
+
+- KRs are Outcomes  
+- Define what success looks like  
+- Make them numerical  
+- Use a scale that can be measured in real time (or as close as possible)  
+- Avoid binary KRs  
+- Avoid actions. If you can achieve it directly, it’s not a KR.  
 - Include the initial value of the metric when describing the KR e.g. “Decrease defects in the field from 100 to 10”
+
+</div>
+</div>
 
 ---
 ## In Conclusion
