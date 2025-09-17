@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>http://localhost:1313/hugo-universal-theme/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <title>Categories on Paul Blay</title>
+    <link>http://localhost:1313/paulblay-hugo/categories/</link>
+    <description>Recent content in Categories on Paul Blay</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-gb</language>
     <lastBuildDate>Wed, 09 Jul 2025 11:46:20 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/hugo-universal-theme/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/paulblay-hugo/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Delivery</title>
-      <link>http://localhost:1313/hugo-universal-theme/categories/delivery/</link>
+      <link>http://localhost:1313/paulblay-hugo/categories/delivery/</link>
       <pubDate>Wed, 09 Jul 2025 11:46:20 +0100</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/categories/delivery/</guid>
+      <guid>http://localhost:1313/paulblay-hugo/categories/delivery/</guid>
       <description></description>
     </item>
     <item>
       <title>Embedded</title>
-      <link>http://localhost:1313/hugo-universal-theme/categories/embedded/</link>
+      <link>http://localhost:1313/paulblay-hugo/categories/embedded/</link>
       <pubDate>Wed, 09 Jul 2025 11:46:20 +0100</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/categories/embedded/</guid>
+      <guid>http://localhost:1313/paulblay-hugo/categories/embedded/</guid>
       <description></description>
     </item>
     <item>
       <title>Lorem</title>
-      <link>http://localhost:1313/hugo-universal-theme/categories/lorem/</link>
+      <link>http://localhost:1313/paulblay-hugo/categories/lorem/</link>
       <pubDate>Wed, 09 Jul 2025 11:46:20 +0100</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/categories/lorem/</guid>
+      <guid>http://localhost:1313/paulblay-hugo/categories/lorem/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>http://localhost:1313/hugo-universal-theme/categories/programming/</link>
+      <link>http://localhost:1313/paulblay-hugo/categories/programming/</link>
       <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/categories/programming/</guid>
+      <guid>http://localhost:1313/paulblay-hugo/categories/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Pseudo</title>
-      <link>http://localhost:1313/hugo-universal-theme/categories/pseudo/</link>
+      <link>http://localhost:1313/paulblay-hugo/categories/pseudo/</link>
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/categories/pseudo/</guid>
+      <guid>http://localhost:1313/paulblay-hugo/categories/pseudo/</guid>
       <description></description>
     </item>
     <item>
       <title>Starting</title>
-      <link>http://localhost:1313/hugo-universal-theme/categories/starting/</link>
+      <link>http://localhost:1313/paulblay-hugo/categories/starting/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/categories/starting/</guid>
+      <guid>http://localhost:1313/paulblay-hugo/categories/starting/</guid>
       <description></description>
     </item>
   </channel>

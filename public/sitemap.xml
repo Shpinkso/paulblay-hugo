@@ -2,83 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/hugo-universal-theme/authors/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/authors/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/blog/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/blog/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/categories/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/categories/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/categories/delivery/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/categories/delivery/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/tags/delivery/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/tags/delivery/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/categories/embedded/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/categories/embedded/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/tags/embedded/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/tags/embedded/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/focus-on-outcomes-with-okrs/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/blog/2025/07/09/focus-on-outcomes-with-okrs/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-okr-scorecard/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/blog/2025/07/09/the-okr-scorecard/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/tags/ipsum/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/tags/ipsum/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/categories/lorem/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/categories/lorem/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/authors/paul-blay/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/authors/paul-blay/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/tags/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/tags/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-agility-challenge-for-embedded-software/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/blog/2025/07/09/the-agility-challenge-for-embedded-software/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/tags/go/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/blog/2015/09/17/go-is-for-lovers/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/blog/2015/09/17/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/categories/programming/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/categories/programming/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/tags/hugo/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/tags/hugo/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/blog/2015/08/03/hugo-is-for-lovers/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/blog/2015/08/03/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/categories/pseudo/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/categories/pseudo/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/blog/2015/06/24/creating-a-new-theme/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/blog/2015/06/24/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/authors/jane-doe/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/authors/jane-doe/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/categories/starting/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/categories/starting/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/tags/theme/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/tags/theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/contact/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/hugo-universal-theme/faq/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/faq/</loc>
   </url>
 </urlset>

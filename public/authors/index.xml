@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on My New Hugo Site</title>
-    <link>http://localhost:1313/hugo-universal-theme/authors/</link>
-    <description>Recent content in Authors on My New Hugo Site</description>
+    <title>Authors on Paul Blay</title>
+    <link>http://localhost:1313/paulblay-hugo/authors/</link>
+    <description>Recent content in Authors on Paul Blay</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-gb</language>
     <lastBuildDate>Wed, 09 Jul 2025 11:46:20 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/hugo-universal-theme/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/paulblay-hugo/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Paul Blay</title>
-      <link>http://localhost:1313/hugo-universal-theme/authors/paul-blay/</link>
+      <link>http://localhost:1313/paulblay-hugo/authors/paul-blay/</link>
       <pubDate>Wed, 09 Jul 2025 11:46:20 +0100</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/authors/paul-blay/</guid>
+      <guid>http://localhost:1313/paulblay-hugo/authors/paul-blay/</guid>
       <description></description>
     </item>
     <item>
       <title>Jane Doe</title>
-      <link>http://localhost:1313/hugo-universal-theme/authors/jane-doe/</link>
+      <link>http://localhost:1313/paulblay-hugo/authors/jane-doe/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/authors/jane-doe/</guid>
+      <guid>http://localhost:1313/paulblay-hugo/authors/jane-doe/</guid>
       <description></description>
     </item>
   </channel>

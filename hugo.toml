@@ -1,7 +1,7 @@
-baseurl = "https://devcows.github.io/hugo-universal-theme/" # Configure URL. if using gh-pages https://github.com/shpinkso/hugo-universal-theme URL: https://shpinkso.github.io/hugo-universal-theme/
-title = "My New Hugo Site"
-theme = 'universal'
-languageCode = "en-us"
+baseurl = "https://shpinkso.github.io/paulblay-hugo/" # Configure URL. if using gh-pages https://github.com/shpinkso/hugo-universal-theme URL: https://shpinkso.github.io/hugo-universal-theme/
+title = "Paul Blay"
+languageCode = "en-gb"
+theme = "hugo-universal-theme"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 
@@ -22,6 +22,10 @@ pluralizelisttitles = false
 # Define the number of posts per page
 [pagination]
     pagerSize = 10
+
+[module]
+  [[module.imports]]
+    path = "github.com/devcows/hugo-universal-theme"
 
 # Main menu
 [menu]

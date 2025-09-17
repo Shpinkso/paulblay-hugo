@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ipsum on My New Hugo Site</title>
-    <link>http://localhost:1313/hugo-universal-theme/tags/ipsum/</link>
-    <description>Recent content in Ipsum on My New Hugo Site</description>
+    <title>Ipsum on Paul Blay</title>
+    <link>http://localhost:1313/paulblay-hugo/tags/ipsum/</link>
+    <description>Recent content in Ipsum on Paul Blay</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-gb</language>
     <lastBuildDate>Wed, 09 Jul 2025 11:46:20 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/hugo-universal-theme/tags/ipsum/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/paulblay-hugo/tags/ipsum/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Focus on outcomes with OKRs</title>
-      <link>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/focus-on-outcomes-with-okrs/</link>
+      <link>http://localhost:1313/paulblay-hugo/blog/2025/07/09/focus-on-outcomes-with-okrs/</link>
       <pubDate>Wed, 09 Jul 2025 11:46:20 +0100</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/focus-on-outcomes-with-okrs/</guid>
+      <guid>http://localhost:1313/paulblay-hugo/blog/2025/07/09/focus-on-outcomes-with-okrs/</guid>
       <description>&lt;p&gt;If you’re interested in a way to tap into your team or companies creative potential, generating alignment and delivering tangible value, then OKRs should be your first port of call.&lt;/p&gt;&#xA;&lt;p&gt;I was fortunate enough to have met, and worked closely with &lt;a href=&#34;http://raganmcgill.co.uk/&#34;&gt;Ragan McGill&lt;/a&gt; while I was at DisplayLink. Ragan had experienced both effective and underwhelming use of OKRs in his career and gave a set of training on how to ensure that they are well formed and deliver on their potential.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introducing the OKR ScoreCard</title>
-      <link>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-okr-scorecard/</link>
+      <link>http://localhost:1313/paulblay-hugo/blog/2025/07/09/the-okr-scorecard/</link>
       <pubDate>Wed, 09 Jul 2025 11:46:20 +0100</pubDate>
-      <guid>http://localhost:1313/hugo-universal-theme/blog/2025/07/09/the-okr-scorecard/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo-universal-theme/img/OKR_Scorecard/OKRs_why-1024x227-1.png&#34; alt=&#34;OKRs_why&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;So let’s assume we’re using OKRs now. We’ve come up with some Objectives and tried to find meaningful measures for our Key Results that we think will help us ensure we’re going in the right direction.&lt;/p&gt;&#xA;&lt;p&gt;It’s important to remind ourselves that OKRs are just a tool. Using an ORK framework doesn’t necessarily ensure that we’re getting any tangible benefits over any other approach.&lt;/p&gt;&#xA;&lt;p&gt;For example, the next two OKR examples for our imaginary TownTalk ™ product both provide an objective and measurable KRs against it, but do both really unlock the same value?&lt;/p&gt;</description>
+      <guid>http://localhost:1313/paulblay-hugo/blog/2025/07/09/the-okr-scorecard/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/paulblay-hugo/hugo-universal-theme/img/OKR_Scorecard/OKRs_why-1024x227-1.png&#34; alt=&#34;OKRs_why&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;So let’s assume we’re using OKRs now. We’ve come up with some Objectives and tried to find meaningful measures for our Key Results that we think will help us ensure we’re going in the right direction.&lt;/p&gt;&#xA;&lt;p&gt;It’s important to remind ourselves that OKRs are just a tool. Using an ORK framework doesn’t necessarily ensure that we’re getting any tangible benefits over any other approach.&lt;/p&gt;&#xA;&lt;p&gt;For example, the next two OKR examples for our imaginary TownTalk ™ product both provide an objective and measurable KRs against it, but do both really unlock the same value?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
