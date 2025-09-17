@@ -2,7 +2,7 @@
 title = "Focus on outcomes with OKRs"
 date = "2025-07-09T11:46:20+01:00"
 tags = ["ipsum"]
-categories = ["lorem"]
+categories = ["my_category"]
 banner = "img/banners/bullseye_thin-1024x557-1.png"
 authors = ["Paul Blay"]
 +++
@@ -20,13 +20,13 @@ This post tries to cover the core ideas, so that you can tap into the potential 
 
 OKRs stand for Objectives and Key Results and they are a framework for goal setting. Here’s a basic overview, we’ll go into more detail in a moment.
 
-![OKRs Overview](/hugo-universal-theme/img/OKR/OKRs_overview-1024x561-1.png)
+![OKRs Overview](/paulblay-hugo/img/OKR/OKRs_overview-1024x561-1.png)
 
 ## Why OKRs?
 
 I’ve already touched on this in the opening paragraph, but to expand on that:
 
-![OKRs Why](/hugo-universal-theme/img/OKR/OKRs_why-1024x227-1.png)
+![OKRs Why](/paulblay-hugo/img/OKR/OKRs_why-1024x227-1.png)
 
 - Alignment in where we want to go and what success looks like. OKRs provide this alongside flexibility in how we get there.
 - Teams are empowered as they have autonomy on how to achieve the objectives.
@@ -38,17 +38,17 @@ I’ve already touched on this in the opening paragraph, but to expand on that:
 Traditional project management may start with a value proposition, but once the project is in execution, it’s rare that the teams understand the value or that it ever gets reviewed. The focus is primarily on achieving the outputs with a focus on inputs, activities and the output timeline.  
 Taking the INTRAC result chain to illustrate:
 
-![OKRs INTRAC](/hugo-universal-theme/img/OKR/OKRs_intrac-1024x157-1.png)
+![OKRs INTRAC](/paulblay-hugo/img/OKR/OKRs_intrac-1024x157-1.png)
 
 The INTRAC results chain maps to OKRs and Actions in the following way. Are you spending all your time focusing on Actions?
 
-![OKRs INTRAC Labelled](/hugo-universal-theme/img/OKR/OKRs_intrac_labelled-1024x222-1.png)
+![OKRs INTRAC Labelled](/paulblay-hugo/img/OKR/OKRs_intrac_labelled-1024x222-1.png)
 
 OKRs enable you to maintain focus on the impact you want and monitor your progress with measurable outcomes. Rely on the creativity and skills of your teams to decide on the actions required to achieve these.
 
 ## An Analogy
 
-![Journey](/hugo-universal-theme/img/OKR/journey-300x165.png)
+![Journey](/paulblay-hugo/img/OKR/journey-300x165.png)
 
 Imagine this is you. Think of the Objective in an OKR to be a place you want to reach, illustrated here by the peak of a glorious mountain, depicted in the computer game [Journey](https://thatgamecompany.com/journey/).
 
@@ -69,7 +69,7 @@ An example of this, extending the Journey analogy, is Latitude or Longitude. If 
 
 So think of KRs as points on a measurable scale. Imagine your teams looking at a dashboard with the KRs marked out on various dials and gauges. Even though it’s low visibility to the Objective, every action they take changes the measurements to let them know if they’re getting closer or further away.
 
-![OKRs Gauges](/hugo-universal-theme/img/OKR/OKRs_gauges-1024x718-1.png)
+![OKRs Gauges](/paulblay-hugo/img/OKR/OKRs_gauges-1024x718-1.png)
 
 Looking out into the fog, your team works on actions to get their measurements moving towards the KRs (represented as stars on the dashboard readings in this illustration).
 
@@ -99,11 +99,8 @@ Remember:
 ---
 ### Objectives
 
-<div style="display: flex; align-items: center; gap: 20px;">
+![OKRs How](/paulblay-hugo/img/OKR/OKRs_how-1024x660-1.png)
 
-<img src="/hugo-universal-theme/img/OKR/OKRs_how-1024x660-1.png" alt="OKRs How" width="300" style="flex-shrink: 0;"/>
-
-<div>
 
 - Objectives are Impacts  
 - Make them a destination  
@@ -112,17 +109,13 @@ Remember:
 - Explain why, use “so that”  
 - Start with 1 or 2  
 
-</div>
-</div>
 
 ---
 ### Key Results
 
-<div style="display: flex; align-items: center; gap: 20px; flex-direction: row-reverse;">
 
-<img src="/img/OKR/speedometer.png" alt="Speedometer" width="200" style="flex-shrink: 0;"/>
+![OKRs Speedometer](/paulblay-hugo/img/OKR/speedometer.png)
 
-<div>
 
 - KRs are Outcomes  
 - Define what success looks like  
@@ -132,8 +125,6 @@ Remember:
 - Avoid actions. If you can achieve it directly, it’s not a KR.  
 - Include the initial value of the metric when describing the KR e.g. “Decrease defects in the field from 100 to 10”
 
-</div>
-</div>
 
 ---
 ## In Conclusion
@@ -142,4 +133,4 @@ OKRs are extremely powerful when used well and in the right company culture. I h
 
 I leave you with a summary adding actions, as a concept, into the mix.
 
-![OKRs Conclusion](/hugo-universal-theme/img/OKR/OKRs_conclusion-1024x416-1.png)
+![OKRs Conclusion](/paulblay-hugo/img/OKR/OKRs_conclusion-1024x416-1.png)
