@@ -1,0 +1,45 @@
+name: Build & Publish (Preview)
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Hugo Modules Cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/hugo_modules
+            ./resources
+          key: hugo-mod-${{ runner.os }}-${{ hashFiles('**/go.mod') }}
+          restore-keys: |
+            hugo-mod-${{ runner.os }}-
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy to gh-pages (preview)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public
+          force_orphan: true
