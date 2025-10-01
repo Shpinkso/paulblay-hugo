@@ -1,0 +1,47 @@
+<section id="hero" class="bar background-white">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Left: title + subtitle + paragraph -->
+      <div class="col-md-7">
+        <h1 class="text-uppercase">
+          {{ with .Site.Params.home.title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}
+        </h1>
+
+        {{ with .Site.Params.home.subtitle }}
+          <p class="lead mb-2">{{ . }}</p>
+        {{ end }}
+
+        {{ with .Site.Params.home.description }}
+          <div class="mt-2">{{ . | markdownify }}</div>
+        {{ end }}
+
+        {{ with .Content }}
+          <div class="mt-3">{{ . }}</div>
+        {{ end }}
+      </div>
+
+      <!-- Right: image (assets pipeline first, static fallback) -->
+      <div class="col-md-5 text-center mt-3 mt-md-0">
+        {{ $imgPath := .Site.Params.home.hero_image }}
+        {{ if $imgPath }}
+          {{ $alt := default "" .Site.Params.home.hero_image_alt }}
+          {{ $asset := resources.Get $imgPath }}
+          {{ if $asset }}
+            {{ $w800 := $asset.Fit "800x600" }}
+            {{ $w1200 := $asset.Fit "1200x900" }}
+            <img
+              src="{{ $w800.RelPermalink }}"
+              srcset="{{ $w800.RelPermalink }} 800w, {{ $w1200.RelPermalink }} 1200w"
+              sizes="(max-width: 768px) 100vw, 480px"
+              alt="{{ $alt }}"
+              class="img-responsive img-fluid">
+          {{ else }}
+            <img src="{{ $imgPath | relURL }}" alt="{{ $alt }}" class="img-responsive img-fluid">
+          {{ end }}
+        {{ end }}
+      </div>
+
+    </div>
+  </div>
+</section>

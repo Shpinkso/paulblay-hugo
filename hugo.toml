@@ -180,8 +180,7 @@ pluralizelisttitles = false
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    copyright = "Copyright (c) 2015 - 2025, Paul Blay; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -189,15 +188,13 @@ pluralizelisttitles = false
     dropdown_mouse_over = false
 
     disabled_logo = false
-    logo_text = "Universal"
+    logo_text = "Paul Blay"
 
     logo = "img/logo.png"
     logo_small = "img/cropped-favicon-1.png"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
+    address = """<p class="text-uppercase"><strong>Paul Blay</strong>
+        <br>Cambridgeshire
         <br>England
         <br>
         <strong>Great Britain</strong>
@@ -206,6 +203,14 @@ pluralizelisttitles = false
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:contentbasename/"
+
+
+[params.home]
+    title = "Paul Blay on Software Management"
+    subtitle = "Insights into the world of modern software delivery and people management"
+    description = "With over 25 years in many different companies, writing software, leading teams and managing projects & programmes – I’ve learned a lot about what works and what definitely does not. This site is intended to share my experience around how to build and maintain great products and services, by guiding and nurturing the teams that create them. My experience is first and foremost in the embedded sector, which brings unique challenges to modern software development practices."
+    hero_image = "img/homepage.png"
+    hero_image_alt = ""
 
 # Enable or disable top bar with social icons
 [params.topbar]
@@ -224,13 +229,13 @@ pluralizelisttitles = false
 
 [params.carouselCustomers]
     items = 6
-    auto_play = false
+    auto_play = true
     slide_speed = 2000
     pagination_speed = 1000
 
 [params.carouselTestimonials]
     items = 4
-    auto_play = false
+    auto_play = true
     slide_speed = 2000
     pagination_speed = 1000
 
@@ -238,8 +243,8 @@ pluralizelisttitles = false
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more information take a look at the README.
-    enable = true
-    auto_play = true
+    enable = false
+    auto_play = false
     slide_speed = 2000
     pagination_speed = 1000
 
@@ -259,7 +264,7 @@ pluralizelisttitles = false
     subtitle = "Some snippets from the over 20 personal recommendations I've received thoughout my career. See my Linkedin for the full list."
 
 [params.see_more]
-    enable = true
+    enable = false
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
@@ -276,8 +281,8 @@ pluralizelisttitles = false
 
 [params.recent_posts]
     enable = true
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    title = "Posts from my blog"
+    subtitle = ""
     hide_summary = false
 
 [params.footer.recent_posts]
