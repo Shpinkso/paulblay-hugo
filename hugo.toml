@@ -70,7 +70,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "About"
     identifier = "menu.about"
-    url        = "/img/template-homepage.png"
+    url        = "/about/"
     weight     = 2
 
 [[menu.main]]

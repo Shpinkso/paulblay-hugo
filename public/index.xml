@@ -6,8 +6,15 @@
     <description>Recent content on Paul Blay</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 09 Jul 2025 11:46:20 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/paulblay-hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/paulblay-hugo/about/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulblay-hugo/about/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/paulblay-hugo/img/me.jpg&#34; alt=&#34;Me&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;An agilist, a people person and an unashamed nerd.&lt;/p&gt;&#xA;&lt;p&gt;I have experienced working in large bureaucracies and lean startups, as a developer, people manager, project manager and product manager.&lt;/p&gt;&#xA;&lt;p&gt;I’ve seen &amp;rsquo;exciting and dynamic&amp;rsquo; as well as &amp;lsquo;domineering and draining&amp;rsquo; cultures. Coupling this experience with plenty of ideas from excellent books, media and a network of colleagues turned friends; I hope to bring these learnings to this website in an easily consumable way.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Focus on outcomes with OKRs</title>
       <link>http://localhost:1313/paulblay-hugo/blog/2025/07/09/focus-on-outcomes-with-okrs/</link>
