@@ -16,11 +16,11 @@ jobs:
 
       - uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.123.7'
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --environment production
 
       - name: Deploy to username.github.io
         uses: peaceiris/actions-gh-pages@v3
