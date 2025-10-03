@@ -1,8 +1,8 @@
 +++
 title = "Focus on outcomes with OKRs"
-date = "2025-07-09T11:46:20+01:00"
-tags = ["ipsum"]
-categories = ["my_category"]
+date = "2020-11-17T11:46:20+01:00"
+tags = ["OKR"]
+categories = ["outcomes"]
 banner = "img/banners/bullseye_thin-1024x557-1.png"
 authors = ["Paul Blay"]
 +++

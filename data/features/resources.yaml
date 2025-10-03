@@ -1,5 +1,5 @@
 weight: 6
 name: "Resources"
 icon: "fa-solid fa-book-open-reader"
-url: ""
+url: "resources/"
 description: "Go here for recommended books, tools, videos, etc."

@@ -2,5 +2,5 @@ weight: 1
 name: "Outcomes"
 # Find these icons and their IDs at fontawesome.com
 icon: "fa-solid fa-location-dot"
-url: ""
+url: "categories/outcomes/"
 description: "Guide your teams to high value outcomes, while enhancing autonomy, ownership and creativity using OKRs."

@@ -16,46 +16,74 @@
       <description>An agilist, a people person and an unashamed nerd.&#xA;I have experienced working in large bureaucracies and lean startups, as a developer, people manager, project manager and product manager.&#xA;I’ve seen &amp;rsquo;exciting and dynamic&amp;rsquo; as well as &amp;lsquo;domineering and draining&amp;rsquo; cultures. Coupling this experience with plenty of ideas from excellent books, media and a network of colleagues turned friends; I hope to bring these learnings to this website in an easily consumable way.</description>
     </item>
     <item>
-      <title>Focus on outcomes with OKRs</title>
-      <link>http://localhost:1313/paulblay-hugo/blog/2025/07/09/focus-on-outcomes-with-okrs/</link>
-      <pubDate>Wed, 09 Jul 2025 11:46:20 +0100</pubDate>
-      <guid>http://localhost:1313/paulblay-hugo/blog/2025/07/09/focus-on-outcomes-with-okrs/</guid>
-      <description>If you’re interested in a way to tap into your team or companies creative potential, generating alignment and delivering tangible value, then OKRs should be your first port of call.&#xA;I was fortunate enough to have met, and worked closely with Ragan McGill while I was at DisplayLink. Ragan had experienced both effective and underwhelming use of OKRs in his career and gave a set of training on how to ensure that they are well formed and deliver on their potential.</description>
-    </item>
-    <item>
       <title>Introducing the OKR ScoreCard</title>
-      <link>http://localhost:1313/paulblay-hugo/blog/2025/07/09/the-okr-scorecard/</link>
-      <pubDate>Wed, 09 Jul 2025 11:46:20 +0100</pubDate>
-      <guid>http://localhost:1313/paulblay-hugo/blog/2025/07/09/the-okr-scorecard/</guid>
+      <link>http://localhost:1313/paulblay-hugo/blog/2021/04/05/the-okr-scorecard/</link>
+      <pubDate>Mon, 05 Apr 2021 11:46:20 +0100</pubDate>
+      <guid>http://localhost:1313/paulblay-hugo/blog/2021/04/05/the-okr-scorecard/</guid>
       <description>So let’s assume we’re using OKRs now. We’ve come up with some Objectives and tried to find meaningful measures for our Key Results that we think will help us ensure we’re going in the right direction.&#xA;It’s important to remind ourselves that OKRs are just a tool. Using an ORK framework doesn’t necessarily ensure that we’re getting any tangible benefits over any other approach.&#xA;For example, the next two OKR examples for our imaginary TownTalk ™ product both provide an objective and measurable KRs against it, but do both really unlock the same value?</description>
     </item>
     <item>
       <title>The agility Challenge for Embedded Software</title>
-      <link>http://localhost:1313/paulblay-hugo/blog/2025/07/09/the-agility-challenge-for-embedded-software/</link>
-      <pubDate>Wed, 09 Jul 2025 11:46:20 +0100</pubDate>
-      <guid>http://localhost:1313/paulblay-hugo/blog/2025/07/09/the-agility-challenge-for-embedded-software/</guid>
+      <link>http://localhost:1313/paulblay-hugo/blog/2020/12/02/the-agility-challenge-for-embedded-software/</link>
+      <pubDate>Wed, 02 Dec 2020 11:46:20 +0100</pubDate>
+      <guid>http://localhost:1313/paulblay-hugo/blog/2020/12/02/the-agility-challenge-for-embedded-software/</guid>
       <description>If you’ve ever worked for a business that has it’s core focus in the embedded software space, I suspect you are more likely to have had to tolerate software development practices from 20 years ago. If you’ve read many books on Agile software development, DevOps or other modern practices, you may also have noticed that they almost all talk about software that targets a server or website, possibly a PC. But unless you’re reading a very different library to me, you’ll not have seen much talk about embedded software.</description>
     </item>
     <item>
-      <title>Go is for lovers</title>
-      <link>http://localhost:1313/paulblay-hugo/blog/2015/09/17/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      <guid>http://localhost:1313/paulblay-hugo/blog/2015/09/17/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.&#xA;This document is a brief primer on using go templates.</description>
+      <title>Focus on outcomes with OKRs</title>
+      <link>http://localhost:1313/paulblay-hugo/blog/2020/11/17/focus-on-outcomes-with-okrs/</link>
+      <pubDate>Tue, 17 Nov 2020 11:46:20 +0100</pubDate>
+      <guid>http://localhost:1313/paulblay-hugo/blog/2020/11/17/focus-on-outcomes-with-okrs/</guid>
+      <description>If you’re interested in a way to tap into your team or companies creative potential, generating alignment and delivering tangible value, then OKRs should be your first port of call.&#xA;I was fortunate enough to have met, and worked closely with Ragan McGill while I was at DisplayLink. Ragan had experienced both effective and underwhelming use of OKRs in his career and gave a set of training on how to ensure that they are well formed and deliver on their potential.</description>
     </item>
     <item>
-      <title>Hugo is for lovers</title>
-      <link>http://localhost:1313/paulblay-hugo/blog/2015/08/03/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      <guid>http://localhost:1313/paulblay-hugo/blog/2015/08/03/hugo-is-for-lovers/</guid>
-      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;http://localhost:1313/paulblay-hugo/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
+      <title>7 Practical Steps To Increase Accountability In Agile Teams</title>
+      <link>http://localhost:1313/paulblay-hugo/blog/2020/08/17/accountability-in-agile-teams/</link>
+      <pubDate>Mon, 17 Aug 2020 11:46:20 +0100</pubDate>
+      <guid>http://localhost:1313/paulblay-hugo/blog/2020/08/17/accountability-in-agile-teams/</guid>
+      <description>Individual and team accountability is critical for any high functioning team, I believe that this is often a concern for senior management, especially when considering an agile transformation, and can be difficult to attain.&#xA;At the points in my career that I have seen senior management push back on the adoption of agile methodologies, the main areas of contention has been around the feeling of losing “control” over the delivery roadmap.</description>
     </item>
     <item>
-      <title>Creating a new theme</title>
-      <link>http://localhost:1313/paulblay-hugo/blog/2015/06/24/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      <guid>http://localhost:1313/paulblay-hugo/blog/2015/06/24/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&#xA;We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <title>Complexity as a Software metric</title>
+      <link>http://localhost:1313/paulblay-hugo/blog/2020/07/20/complexity_as_sw_metric/</link>
+      <pubDate>Mon, 20 Jul 2020 11:46:20 +0100</pubDate>
+      <guid>http://localhost:1313/paulblay-hugo/blog/2020/07/20/complexity_as_sw_metric/</guid>
+      <description>I’ve never been completely sold on Cyclomatic Complexity as a metric, it maps to linearly independent paths through code which may be useful to get an indication on the level of testing an application needs, assuming code coverage is not available (another metric that needs to be treated with caution), but how much value is that? Most applications are multi threaded and do not run in a linear fashion, I’d argue that there’s considerably more value in measuring the readability of code in order to allow people to understand what it does and how to change it.</description>
+    </item>
+    <item>
+      <title>The ugly side of no surprises management</title>
+      <link>http://localhost:1313/paulblay-hugo/blog/2019/01/05/ugly_side_no_surprises/</link>
+      <pubDate>Sat, 05 Jan 2019 11:46:20 +0100</pubDate>
+      <guid>http://localhost:1313/paulblay-hugo/blog/2019/01/05/ugly_side_no_surprises/</guid>
+      <description>I get it… I think…&#xA;“No Surprises” management is intended to ensure that people aren’t hiding bad news from their colleagues (let’s face it, usually their boss or some other superior) so that we’re not horribly surprised at the last minute that, for example, our project is 6 months late.&#xA;Boom! Instant high-functioning team! Everyone feels safe and surprises never happen…. Or at least, god help you if they still do happen, because I was very clear that I don’t like surprises!</description>
+    </item>
+    <item>
+      <title>Autonomous teams vs &#39;resource&#39; management</title>
+      <link>http://localhost:1313/paulblay-hugo/blog/2018/10/10/autonomous_vs_resource/</link>
+      <pubDate>Wed, 10 Oct 2018 11:46:20 +0100</pubDate>
+      <guid>http://localhost:1313/paulblay-hugo/blog/2018/10/10/autonomous_vs_resource/</guid>
+      <description>How often have you heard the phrase “We don’t have the resource” or “How many resources will it take?”&#xA;Quite apart from the dehumanising nature of the word “resource” (should we, in response, say “that’s a good question, management resource number 3”?), people are not automatons who are all equally skilled/motivated coding machines that can be assumed to be equally effective in all scenarios.&#xA;People each have unique skills, ways of working, areas of experience, interests and relationships with others that all matter heavily in terms of getting the best results, or getting anything at all.</description>
+    </item>
+    <item>
+      <title>Why the bottleneck is everything</title>
+      <link>http://localhost:1313/paulblay-hugo/blog/2018/09/12/why_bottleneck_everything/</link>
+      <pubDate>Wed, 12 Sep 2018 11:46:20 +0100</pubDate>
+      <guid>http://localhost:1313/paulblay-hugo/blog/2018/09/12/why_bottleneck_everything/</guid>
+      <description>This is probably the least intuitive idea that I’ve come across in my working career, but when explained and demonstrated, possibly one of the most important. Here it is: it is inefficient to have everyone working at 100% effort, 100% of the time. This seems wrong – we’re paying for these people, they should be putting all their time and effort towards our product features! Get back to working on them!</description>
+    </item>
+    <item>
+      <title>Motivation 2.0</title>
+      <link>http://localhost:1313/paulblay-hugo/blog/2018/07/09/motivation_2/</link>
+      <pubDate>Mon, 09 Jul 2018 11:46:20 +0100</pubDate>
+      <guid>http://localhost:1313/paulblay-hugo/blog/2018/07/09/motivation_2/</guid>
+      <description>How are you engaging your team? Are you running a regular appraisal cycle where everyone’s individual score is totted up and ultimately dictates financial reward (pay increase, bonus, share options) or, on the other side of the scale, performance improvement plans?&#xA;How are you finding this?&#xA;Do people who get the financial rewards become more engaged and effective throughout the year? Do those on the performance improvement plans “pull their socks up” and become superstars now that they know they’re not performing to expectations?</description>
+    </item>
+    <item>
+      <title>what is agility?</title>
+      <link>http://localhost:1313/paulblay-hugo/blog/2017/02/03/what_is_agility/</link>
+      <pubDate>Fri, 03 Feb 2017 11:46:20 +0100</pubDate>
+      <guid>http://localhost:1313/paulblay-hugo/blog/2017/02/03/what_is_agility/</guid>
+      <description>Strictly speaking, ‘agile’ is an adjective, a descriptive word… like “nimble” &amp;amp; so the more obvious title “What is agile?” probably would have made a small, hardcore, fraction of people up-chuck a little in their mouths. (I am not so offended on this one, but tell me something is “addicting” and I will develop an unruly lower eyelid twitch). I think the reason behind this is due to how commercialised and corporate the term has become over the years – ironically, as the original manifesto moved thinking in a completely different direction.</description>
     </item>
     <item>
       <title>Contact</title>

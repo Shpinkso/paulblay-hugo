@@ -1,7 +1,7 @@
 +++
 title = "The agility Challenge for Embedded Software"
-date = "2025-07-09T11:46:20+01:00"
-tags = ["embedded", "delivery"]
+date = "2020-12-02T11:46:20+01:00"
+tags = ["agile"]
 categories = ["embedded","delivery"]
 banner = "img/banners/banner-4.png"
 authors = ["Paul Blay"]

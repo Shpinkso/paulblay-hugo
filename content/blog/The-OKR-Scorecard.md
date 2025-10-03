@@ -1,8 +1,8 @@
 +++
 title = "Introducing the OKR ScoreCard"
-date = "2025-07-09T11:46:20+01:00"
-tags = ["ipsum"]
-categories = ["lorem"]
+date = "2021-04-05T11:46:20+01:00"
+tags = ["OKR"]
+categories = ["outcomes"]
 banner = "img/banners/banner-5.jpg"
 authors = ["Paul Blay"]
 +++
