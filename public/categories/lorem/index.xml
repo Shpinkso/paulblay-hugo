@@ -4,7 +4,7 @@
     <title>Lorem on Paul Blay</title>
     <link>http://localhost:1313/paulblay-hugo/categories/lorem/</link>
     <description>Recent content in Lorem on Paul Blay</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 09 Jul 2025 11:46:20 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/paulblay-hugo/categories/lorem/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/paulblay-hugo/blog/2025/07/09/the-okr-scorecard/</link>
       <pubDate>Wed, 09 Jul 2025 11:46:20 +0100</pubDate>
       <guid>http://localhost:1313/paulblay-hugo/blog/2025/07/09/the-okr-scorecard/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/paulblay-hugo/img/OKR_Scorecard/OKRs_why-1024x227-1.png&#34; alt=&#34;OKRs_why&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;So let’s assume we’re using OKRs now. We’ve come up with some Objectives and tried to find meaningful measures for our Key Results that we think will help us ensure we’re going in the right direction.&lt;/p&gt;&#xA;&lt;p&gt;It’s important to remind ourselves that OKRs are just a tool. Using an ORK framework doesn’t necessarily ensure that we’re getting any tangible benefits over any other approach.&lt;/p&gt;&#xA;&lt;p&gt;For example, the next two OKR examples for our imaginary TownTalk ™ product both provide an objective and measurable KRs against it, but do both really unlock the same value?&lt;/p&gt;</description>
+      <description>So let’s assume we’re using OKRs now. We’ve come up with some Objectives and tried to find meaningful measures for our Key Results that we think will help us ensure we’re going in the right direction.&#xA;It’s important to remind ourselves that OKRs are just a tool. Using an ORK framework doesn’t necessarily ensure that we’re getting any tangible benefits over any other approach.&#xA;For example, the next two OKR examples for our imaginary TownTalk ™ product both provide an objective and measurable KRs against it, but do both really unlock the same value?</description>
     </item>
   </channel>
 </rss>

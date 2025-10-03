@@ -4,7 +4,7 @@
     <title>Hugo on Paul Blay</title>
     <link>http://localhost:1313/paulblay-hugo/tags/hugo/</link>
     <description>Recent content in Hugo on Paul Blay</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Mon, 03 Aug 2015 13:39:46 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/paulblay-hugo/tags/hugo/index.xml" rel="self" type="application/rss+xml" />

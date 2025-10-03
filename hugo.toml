@@ -14,7 +14,7 @@ pluralizelisttitles = false
 [services]
     # Enable comments by entering your Disqus shortname
     [services.disqus]
-        shortname = "devcows"
+        shortname = ""
     # Enable Google Analytics by entering your tracking code
     [services.googleAnalytics]
         id = ""
@@ -82,7 +82,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Resources"
     identifier = "menu.resources"
-    url        = ""
+    url        = "/resources/"
     weight     = 4
 
 [[menu.main]]
@@ -202,7 +202,7 @@ pluralizelisttitles = false
       """
 
 [permalinks]
-    blog = "/blog/:year/:month/:day/:contentbasename/"
+    blog = "/blog/:year/:month/:day/:filename/"
 
 
 [params.home]

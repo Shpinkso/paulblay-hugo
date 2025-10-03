@@ -17,16 +17,16 @@
     <loc>http://localhost:1313/paulblay-hugo/categories/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/categories/delivery/</loc>
-    <lastmod>2025-07-09T11:46:20+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/paulblay-hugo/tags/delivery/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/categories/embedded/</loc>
+    <loc>http://localhost:1313/paulblay-hugo/categories/delivery/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/paulblay-hugo/tags/embedded/</loc>
+    <lastmod>2025-07-09T11:46:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/paulblay-hugo/categories/embedded/</loc>
     <lastmod>2025-07-09T11:46:20+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/paulblay-hugo/blog/2025/07/09/focus-on-outcomes-with-okrs/</loc>
@@ -84,5 +84,7 @@
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/paulblay-hugo/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulblay-hugo/resources/</loc>
   </url>
 </urlset>
