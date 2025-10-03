@@ -29,4 +29,5 @@ jobs:
           external_repository: Shpinkso/Shpinkso.github.io
           publish_branch: main
           publish_dir: ./public
+          cname: paulblay.com
           force_orphan: true
