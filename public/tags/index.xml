@@ -23,20 +23,6 @@
       <description></description>
     </item>
     <item>
-      <title>Delivery</title>
-      <link>http://localhost:1313/paulblay-hugo/tags/delivery/</link>
-      <pubDate>Mon, 17 Aug 2020 11:46:20 +0100</pubDate>
-      <guid>http://localhost:1313/paulblay-hugo/tags/delivery/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>People</title>
-      <link>http://localhost:1313/paulblay-hugo/tags/people/</link>
-      <pubDate>Mon, 17 Aug 2020 11:46:20 +0100</pubDate>
-      <guid>http://localhost:1313/paulblay-hugo/tags/people/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>CI</title>
       <link>http://localhost:1313/paulblay-hugo/tags/ci/</link>
       <pubDate>Mon, 20 Jul 2020 11:46:20 +0100</pubDate>
