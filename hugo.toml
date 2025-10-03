@@ -215,11 +215,7 @@ pluralizelisttitles = false
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact me on linkedin.</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-      </p>
-      """
+    text = """<p class="hidden-xs hidden-sm"><a href="https://www.linkedin.com/in/paulmblay/" rel="noopener">Connect on LinkedIn</a></p>"""
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
