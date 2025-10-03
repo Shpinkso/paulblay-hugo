@@ -1,9 +1,7 @@
 name: Build & Publish (Live)
 
 on:
-  workflow_dispatch: {}
-  push:
-    branches: [ "main" ]
+  workflow_dispatch: {}   # run only when you click "Run workflow"
 
 permissions:
   contents: read
@@ -11,15 +9,16 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: live     # gate with required reviewers in Settings → Environments → live
     steps:
       - uses: actions/checkout@v4
 
-      - uses: peaceiris/actions-hugo@v2
+      - uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.123.7'
           extended: true
 
-      - name: Build
+      - name: Build (Production)
         run: hugo --minify --environment production
 
       - name: Deploy to username.github.io
@@ -31,3 +30,4 @@ jobs:
           publish_dir: ./public
           cname: paulblay.com
           force_orphan: true
+

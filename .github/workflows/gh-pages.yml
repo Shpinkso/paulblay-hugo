@@ -1,45 +1,50 @@
 name: Build & Publish (Preview)
 
 on:
-  push:
+  pull_request:
     branches: [ "main" ]
+  push:
+    branches-ignore: [ "main" ]   # push to any non-main branch
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
-  build:
+  preview:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.123.7'
           extended: true
 
-      - name: Hugo Modules Cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.cache/hugo_modules
-            ./resources
-          key: hugo-mod-${{ runner.os }}-${{ hashFiles('**/go.mod') }}
-          restore-keys: |
-            hugo-mod-${{ runner.os }}-
+      - name: Compute preview path slug
+        id: slug
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "val=pr-${{ github.event.number }}" >> $GITHUB_OUTPUT
+          else
+            echo "val=${{ github.ref_name }}" >> $GITHUB_OUTPUT
+          fi
 
-      - name: Build
-        run: hugo --minify
+      - name: Build (Preview)
+        run: |
+          hugo --minify --environment preview \
+               --baseURL "https://shpinkso.github.io/${{ github.event.repository.name }}/previews/${{ steps.slug.outputs.val }}/"
 
-      - name: Deploy to gh-pages (preview)
+      - name: Publish to gh-pages (keep other previews)
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
-          force_orphan: true
+          destination_dir: previews/${{ steps.slug.outputs.val }}
+          keep_files: true
+          commit_message: "Preview ${{
+            github.event.pull_request.number && format('PR #%s', github.event.pull_request.number) || github.ref_name
+          }} @ ${{ github.sha }}"
