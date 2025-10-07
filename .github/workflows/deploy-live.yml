@@ -1,7 +1,7 @@
 name: Build & Publish (Live)
 
 on:
-  workflow_dispatch: {}   # run only when you click "Run workflow"
+  workflow_dispatch: {}   # run only when clicking "Run workflow"
 
 permissions:
   contents: read
@@ -24,8 +24,8 @@ jobs:
       - name: Deploy to username.github.io
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.DEPLOY_SECRET }}
-          external_repository: Shpinkso/Shpinkso.github.io
+          personal_token: ${{ secrets.DEPLOY_SECRET }}   # PAT, set in repo->developer settings, will expire
+          external_repository: Shpinkso/Shpinkso.github.io    # target repo
           publish_branch: main
           publish_dir: ./public
           cname: paulblay.com

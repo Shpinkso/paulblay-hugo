@@ -1,10 +1,10 @@
 name: Build & Publish (Preview)
 
 on:
-  pull_request:
-    branches: [ "main" ]
   push:
-    branches-ignore: [ "main" ]   # push to any non-main branch
+    branches: ['**']
+  pull_request:
+    branches: [ 'main' ]
   workflow_dispatch:
 
 permissions:
@@ -13,7 +13,6 @@ permissions:
 jobs:
   preview:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
@@ -45,6 +44,4 @@ jobs:
           publish_dir: ./public
           destination_dir: previews/${{ steps.slug.outputs.val }}
           keep_files: true
-          commit_message: "Preview ${{
-            github.event.pull_request.number && format('PR #%s', github.event.pull_request.number) || github.ref_name
-          }} @ ${{ github.sha }}"
+          commit_message: "Preview ${{ steps.slug.outputs.val }} @ ${{ github.sha }}"
