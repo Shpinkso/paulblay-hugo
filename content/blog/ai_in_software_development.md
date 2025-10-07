@@ -12,7 +12,7 @@ Given my experience so far talking to other leaders and on the ground, here's my
 
 ## Core Philosophy
 
-_LLMs should amplify engineering cognition, not automate it_
+> _LLMs should amplify engineering cognition, not automate it_
 
 * **Human Ownership**: Engineers must remain the authors and owners of production logic.
 * **Knowledge Retention**: We preserve and grow organisational understanding rather than outsource it.
