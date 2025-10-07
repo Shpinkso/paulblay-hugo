@@ -2,95 +2,104 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/paulblay-hugo/about/</loc>
+    <loc>http://localhost:1313/blog/2025/10/07/ai_in_software_development/</loc>
+    <lastmod>2025-10-07T08:52:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2025-10-07T08:52:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/</loc>
+    <lastmod>2025-10-07T08:52:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2025-10-07T08:52:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-10-07T08:52:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/delivery/</loc>
+    <lastmod>2025-10-07T08:52:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/llm/</loc>
+    <lastmod>2025-10-07T08:52:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-07T08:52:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/paul-blay/</loc>
+    <lastmod>2025-10-07T08:52:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/people/</loc>
+    <lastmod>2025-10-07T08:52:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-10-07T08:52:20+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/</loc>
-    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/authors/</loc>
+    <loc>http://localhost:1313/blog/2021/04/05/the-okr-scorecard/</loc>
     <lastmod>2021-04-05T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/blog/</loc>
+    <loc>http://localhost:1313/tags/okr/</loc>
     <lastmod>2021-04-05T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/categories/</loc>
+    <loc>http://localhost:1313/categories/outcomes/</loc>
     <lastmod>2021-04-05T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/blog/2021/04/05/the-okr-scorecard/</loc>
-    <lastmod>2021-04-05T11:46:20+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/tags/okr/</loc>
-    <lastmod>2021-04-05T11:46:20+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/categories/outcomes/</loc>
-    <lastmod>2021-04-05T11:46:20+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/authors/paul-blay/</loc>
-    <lastmod>2021-04-05T11:46:20+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/tags/</loc>
-    <lastmod>2021-04-05T11:46:20+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/tags/agile/</loc>
+    <loc>http://localhost:1313/tags/agile/</loc>
     <lastmod>2020-12-02T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/categories/delivery/</loc>
+    <loc>http://localhost:1313/categories/embedded/</loc>
     <lastmod>2020-12-02T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/categories/embedded/</loc>
+    <loc>http://localhost:1313/blog/2020/12/02/the-agility-challenge-for-embedded-software/</loc>
     <lastmod>2020-12-02T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/blog/2020/12/02/the-agility-challenge-for-embedded-software/</loc>
-    <lastmod>2020-12-02T11:46:20+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/blog/2020/11/17/focus-on-outcomes-with-okrs/</loc>
+    <loc>http://localhost:1313/blog/2020/11/17/focus-on-outcomes-with-okrs/</loc>
     <lastmod>2020-11-17T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/blog/2020/08/17/accountability-in-agile-teams/</loc>
+    <loc>http://localhost:1313/blog/2020/08/17/accountability-in-agile-teams/</loc>
     <lastmod>2020-08-17T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/categories/people/</loc>
-    <lastmod>2020-08-17T11:46:20+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/tags/ci/</loc>
+    <loc>http://localhost:1313/tags/ci/</loc>
     <lastmod>2020-07-20T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/blog/2020/07/20/complexity_as_sw_metric/</loc>
+    <loc>http://localhost:1313/blog/2020/07/20/complexity_as_sw_metric/</loc>
     <lastmod>2020-07-20T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/categories/metrics/</loc>
+    <loc>http://localhost:1313/categories/metrics/</loc>
     <lastmod>2020-07-20T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/tags/autonomy/</loc>
+    <loc>http://localhost:1313/tags/autonomy/</loc>
     <lastmod>2019-01-05T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/blog/2019/01/05/ugly_side_no_surprises/</loc>
+    <loc>http://localhost:1313/blog/2019/01/05/ugly_side_no_surprises/</loc>
     <lastmod>2019-01-05T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/blog/2018/10/10/autonomous_vs_resource/</loc>
+    <loc>http://localhost:1313/blog/2018/10/10/autonomous_vs_resource/</loc>
     <lastmod>2018-10-10T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/tags/bottleneck/</loc>
+    <loc>http://localhost:1313/tags/bottleneck/</loc>
     <lastmod>2018-09-12T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/blog/2018/09/12/why_bottleneck_everything/</loc>
+    <loc>http://localhost:1313/blog/2018/09/12/why_bottleneck_everything/</loc>
     <lastmod>2018-09-12T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/tags/mastery/</loc>
+    <loc>http://localhost:1313/tags/mastery/</loc>
     <lastmod>2018-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/blog/2018/07/09/motivation_2/</loc>
+    <loc>http://localhost:1313/blog/2018/07/09/motivation_2/</loc>
     <lastmod>2018-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/tags/purpose/</loc>
+    <loc>http://localhost:1313/tags/purpose/</loc>
     <lastmod>2018-07-09T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/blog/2017/02/03/what_is_agility/</loc>
+    <loc>http://localhost:1313/blog/2017/02/03/what_is_agility/</loc>
     <lastmod>2017-02-03T11:46:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/paulblay-hugo/resources/</loc>
+    <loc>http://localhost:1313/resources/</loc>
   </url>
 </urlset>

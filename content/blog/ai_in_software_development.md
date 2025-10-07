@@ -1,5 +1,5 @@
 +++
-title = "A Policy for AI enhanced software development"
+title = "A Policy for AI-enhanced software development"
 date = "2025-10-07T08:52:20+01:00"
 tags = ["LLM","AI"]
 categories = ["delivery","people"]
@@ -12,7 +12,7 @@ Given my experience so far talking to other leaders and on the ground, here's my
 
 ## Core Philosophy
 
-> _LLMs should amplify engineering cognition, not automate it_
+> LLMs should amplify engineering cognition, not automate it
 
 * **Human Ownership**: Engineers must remain the authors and owners of production logic.
 * **Knowledge Retention**: We preserve and grow organisational understanding rather than outsource it.

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Paul Blay</title>
-    <link>http://localhost:1313/paulblay-hugo/authors/</link>
+    <link>http://localhost:1313/authors/</link>
     <description>Recent content in Authors on Paul Blay</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 05 Apr 2021 11:46:20 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/paulblay-hugo/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Oct 2025 08:52:20 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Paul Blay</title>
-      <link>http://localhost:1313/paulblay-hugo/authors/paul-blay/</link>
-      <pubDate>Mon, 05 Apr 2021 11:46:20 +0100</pubDate>
-      <guid>http://localhost:1313/paulblay-hugo/authors/paul-blay/</guid>
+      <link>http://localhost:1313/authors/paul-blay/</link>
+      <pubDate>Tue, 07 Oct 2025 08:52:20 +0100</pubDate>
+      <guid>http://localhost:1313/authors/paul-blay/</guid>
       <description></description>
     </item>
   </channel>
