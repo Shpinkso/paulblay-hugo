@@ -14,6 +14,7 @@ Given my experience so far talking to other leaders and on the ground, here's my
 
 > LLMs should amplify engineering cognition, not automate it
 
+This means...
 * **Human Ownership**: Engineers must remain the authors and owners of production logic.
 * **Knowledge Retention**: We preserve and grow organisational understanding rather than outsource it.
 * **Cognitive Augmentation**: Use LLMs to compress the time between _problem recognition_ and _informed decision making_.
