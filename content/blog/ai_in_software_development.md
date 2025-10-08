@@ -23,6 +23,7 @@ This means...
 
 ### 1. Knowledge Synthesis & Search
 Turning documentation into an accessible, converstaional knowledge layer.
+
 **Examples**
 
 * Semantic search across wikis, task management systems, souce control systems, document management systems, emails, instant messaging, etc.
