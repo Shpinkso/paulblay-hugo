@@ -64,9 +64,11 @@ So let's see if we can tackle this...
 
 ## Redesign Ideas
 
-** 1. Pre-Interview Reflection Prompts **
+**1. Pre-Interview Reflection Prompts**
+
 Give candidates a small set of “themes” or prompts beforehand (e.g., “Tell me about improving delivery effectiveness” or “Describe a complex cross-team dependency you managed”).
 They can prepare notes or examples.
+
 ➡️ This shifts the evaluation from memory recall → insight quality.
 
 Benefits:
