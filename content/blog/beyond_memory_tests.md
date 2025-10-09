@@ -7,9 +7,9 @@ banner = "img/banners/memories.jpg"
 authors = ["Paul Blay"]
 +++
 
-I chose the old photo banner art (Photo by [Debby Hudson](https://unsplash.com/@hudsoncrafted?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [unsplash](https://unsplash.com/)) because most of my recent interviews have felt more like a memory test than a copetancy test.
+I chose the old photo banner art (Photo by [Debby Hudson](https://unsplash.com/@hudsoncrafted?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [unsplash](https://unsplash.com/)) because most of my recent interviews have felt more like a memory test than a competency test.
 
-> "Tell me about a time a family member gave you some advice, what was it and how did your life change as a result? Did you send them a thankyou card? What was on the card?"
+> "Tell me about a time a family member gave you some advice, what was it and how did your life change as a result? Did you send them a thank you card? What was on the card?"
 
 Yikes, I don't remember!
 
@@ -19,11 +19,11 @@ Inevitably, I just reach for the most recent example, because I remember the mos
 
 > "Hi Paul, just some feedback from the interview - the team didn't think your answer to the family advice question was what they were looking for. They think maybe you haven't been close enough to your family compared to other candidates."
 
-... the analagy is getting a bit stretched. :smiley:
+... the analogy is getting a bit stretched. :smiley:
 
 Candidates could, of course, prep for a selection of potential likely questions. Here are [more than 60](https://www.themuse.com/advice/interview-questions-and-answers) common questions that don't even touch on your specialism, I'd argue you could find a factor of 10 more for specialism related questions, which is an unrealistic amount of prep - even assuming we could remember enough details of examples from years ago while prepping.
 
-I've talked mostly about losing out in the interview process so far, but I've also experienced interviews where I was lucky enough to have recently worked very closely with the topics and questions posed, so got the job. I was aware at the time that if the questions had focussed on some other technical aspect that I hadn't worked so closely on and so recently, that I would have had a much harder time recalling the information.
+I've talked mostly about losing out in the interview process so far, but I've also experienced interviews where I was lucky enough to have recently worked very closely with the topics and questions posed, so got the job. I was aware at the time that if the questions had focussed on some other technical aspect that I hadn't worked so closely on so recently, that I would have had a much harder time recalling the information confidently.
 
 So let's see if we can tackle this...
 
@@ -37,7 +37,7 @@ So let's see if we can tackle this...
 
 * Candidates are rewarded for clarity under pressure, story polish, and recall of anecdotes over deep expertise.
 
-* People who tend to think deply before speaking, or who use techniques to assist memory that aren't available to them in interviews, can find themselves penalised.
+* People who tend to think deeply before speaking, or who use techniques to assist memory that aren't available to them in interviews, can find themselves penalised.
 
 * We optimise for “smooth talkers” over “systems thinkers.”
 
@@ -53,6 +53,27 @@ So let's see if we can tackle this...
 
 ## Root Causes
 
+| Factor | Impact | Why it rewards the wrong things |
+| ------ | ------ | ------------------------------- |
+| Short, high-pressure interviews | Forces instant recall | Rewards quickness, not reflection |
+| Emphasis on STAR-style anecdotes | Prioritises story polish | Disadvantages reflective or experienced people |
+| Ambiguous questions | Encourages bluffing | Candidates rewarded for confidence |
+| Lack of shared context | Forces memory-based answers | No reference materials to ground discussion |
 
+---
 
-      
+## Redesign Ideas
+
+** 1. Pre-Interview Reflection Prompts **
+Give candidates a small set of “themes” or prompts beforehand (e.g., “Tell me about improving delivery effectiveness” or “Describe a complex cross-team dependency you managed”).
+They can prepare notes or examples.
+➡️ This shifts the evaluation from memory recall → insight quality.
+
+Benefits:
+
+* Tests reasoning and synthesis.
+
+* Reduces cognitive load and anxiety.
+
+* Promotes depth over speed.
+
