@@ -22,11 +22,11 @@ This means...
 ## Effective Augmentation Patterns
 
 ### 1. Knowledge Synthesis & Search
-Turning documentation into an accessible, converstaional knowledge layer.
+Turning documentation into an accessible, conversational knowledge layer.
 
 **Examples**
 
-* Semantic search across wikis, task management systems, souce control systems, document management systems, emails, instant messaging, etc.
+* Semantic search across wikis, task management systems, source control systems, document management systems, emails, instant messaging, etc.
 
 * Summarising incident reports, design docs, and architecture reviews into digestible insights.
 
