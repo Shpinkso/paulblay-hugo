@@ -1,16 +1,63 @@
-/* your styles go here */
-/* Example site test */
-
-.box-image-text .image {
-    min-height: 190px;
-    max-height: 190px;
+/* Style Markdown tables inside Universal's content area */
+.content-column-content table,
+#page-content table,
+main table {
+  width: 100%;
+  border-collapse: collapse;        /* merge borders */
+  border-spacing: 0;
 }
 
-.box-image-text .image img {
-    max-height: 190px;
-    margin: auto;
+.content-column-content th,
+.content-column-content td,
+#page-content th,
+#page-content td,
+main th,
+main td {
+  border: 1px solid #e6e6e6 !important;
+  padding: 8px 10px;
+  vertical-align: top;
 }
 
-.box-simple {
-    min-height: 230px;
+.content-column-content thead th,
+#page-content thead th,
+main thead th {
+  background: #f7f7f7 !important;
+  font-weight: 600;
 }
+
+.content-column-content tbody tr:nth-child(even) td,
+#page-content tbody tr:nth-child(even) td,
+main tbody tr:nth-child(even) td {
+  background: #fafafa !important;
+}
+/* Blog post content (Universal theme) */
+#post-content table {
+  width: 100%;
+  border-collapse: collapse; /* normalize already sets this, but fine to repeat */
+  border-spacing: 0;
+}
+
+#post-content th,
+#post-content td {
+  border: 1px solid #e0e0e0 !important;
+  padding: 8px 10px !important;
+  vertical-align: top !important;
+}
+
+#post-content thead th {
+  background: #f7f7f7 !important;
+  font-weight: 600 !important;
+}
+
+#post-content tbody tr:nth-child(even) td {
+  background: #fafafa !important;
+}
+
+/* Keep these so tables on non-blog pages are styled too */
+.content-column-content table,
+#page-content table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+.content-column-content th, .content-column-content td,
+#page-content th, #page-content td { border: 1px solid #e0e0e0; padding: 8px 10px; vertical-align: top; }
+.content-column-content thead th, #page-content thead th { background: #f7f7f7; font-weight: 600; }
+.content-column-content tbody tr:nth-child(even) td,
+#page-content tbody tr:nth-child(even) td { background: #fafafa; }

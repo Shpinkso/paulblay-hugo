@@ -124,7 +124,9 @@ pluralizelisttitles = false
 #    url = "mailto:hello@universal.com"
 #    pre = "<i class='fas fa-2x fa-envelope'></i>"
 
+
 [params]
+    customCSS = ["css/custom.css"]
     viewMorePostLink = "/blog/"
     author = "DevCows"
     defaultKeywords = ["devcows", "hugo", "go"]
