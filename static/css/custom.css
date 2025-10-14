@@ -61,3 +61,19 @@ main tbody tr:nth-child(even) td {
 .content-column-content thead th, #page-content thead th { background: #f7f7f7; font-weight: 600; }
 .content-column-content tbody tr:nth-child(even) td,
 #page-content tbody tr:nth-child(even) td { background: #fafafa; }
+
+/* Example site test */
+
+.box-image-text .image {
+    min-height: 190px;
+    max-height: 190px;
+}
+
+.box-image-text .image img {
+    max-height: 190px;
+    margin: auto;
+}
+
+.box-simple {
+    min-height: 230px;
+}
