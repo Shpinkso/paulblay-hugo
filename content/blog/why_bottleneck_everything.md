@@ -57,6 +57,7 @@ Here are the 4 steps to dealing with them, plus a link that explains each step i
 2) Exploit
 3) Subordinate
 4) Elevate
+
 https://masteringbusinessanalysis.com/mba082-addressing-bottlenecks-theory-constraints/
 
 Thanks for reading!

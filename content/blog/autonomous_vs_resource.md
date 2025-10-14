@@ -49,7 +49,9 @@ What are your thoughts? Have you tried this approach? Did it work for you?
 **Some handy references**
 
 https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/
+
 https://blog.newrelic.com/culture/autonomous-teams-what-they-are-and-why-you-should-care/
+
 https://www.mindtheproduct.com/team-smarter-autonomous-product-teams-work-better/
 
 Thanks for reading!
