@@ -9,7 +9,7 @@ authors = ["Paul Blay"]
 
 Strictly speaking, ‘agile’ is an adjective, a descriptive word… like “nimble” & so the more obvious title “What is agile?” probably would have made a small, hardcore, fraction of people up-chuck a little in their mouths. (I am not so offended on this one, but tell me something is “addicting” and I will develop an unruly lower eyelid twitch). I think the reason behind this is due to how commercialised and corporate the term has become over the years – ironically, as the original manifesto moved thinking in a completely different direction.
 
-![Different Direction](/paulblay-hugo/img/agility/direction.jpg)
+![Different Direction](/img/agility/direction.jpg)
 
 I personally feel that the word “Agile” has come to represent a whole bunch of concepts that are far from the core meaning, but are for the most part complimentary. I have been asking colleagues and most interview candidates about what they think “Agile” means, partly because I’m actually interested in what the word has come to represent to most people, but also because I feel the need to simplify things.
 
