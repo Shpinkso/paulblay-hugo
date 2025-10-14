@@ -23,7 +23,7 @@ So if we shouldn’t treat engineers (or anyone else for that matter) as identic
 
 Wouldn’t we want a big resource mountain chart so that we can ensure that no one is slacking off and that we’re fully utilising everyone?
 
-![Resource chart](/paulblay-hugo/img/autonomous/resource-chart.png)
+![Resource chart](/img/autonomous/resource-chart.png)
 
 _Have you seen this before? A resource mountain chart where the total capacity of your development function is lower than the identified work and people are expected just to move from one project to the next, unhindered – perhaps you hear mutters of concern before we move quickly on to the next slide. How does this represent whether someone on project 3 can effectively contribute to project 4 or not, the unknown unknowns, the bring up time, the cognitive load, to name but a few. I’ve often wondered whether it’s secretly seen as a good thing that the staff are having to deal with more work than there’s capacity to handle (assuming the estimates mean anything much at all) – it comes up a lot in phasing such as “keeping their feet to the fire” or “running lean”._
 

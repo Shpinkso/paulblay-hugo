@@ -8,7 +8,7 @@ authors = ["Paul Blay"]
 +++
 
 
-![OKRs_why](/paulblay-hugo/img/OKR_Scorecard/OKRs_why-1024x227-1.png)
+![OKRs_why](/img/OKR_Scorecard/OKRs_why-1024x227-1.png)
 
 So let’s assume we’re using OKRs now. We’ve come up with some Objectives and tried to find meaningful measures for our Key Results that we think will help us ensure we’re going in the right direction.
 
@@ -98,7 +98,7 @@ Objective: Deliver against the TownTalk Product Requirements Document
 
 Total Objective score: **2/60**
 
-![OKR1 Objective Scoring](/paulblay-hugo/img/OKR_Scorecard//2022-01-01-21_26_08-Window_1.png)
+![OKR1 Objective Scoring](/img/OKR_Scorecard//2022-01-01-21_26_08-Window_1.png)
 
 Key Results:
 - Go from 0 to 100 mandatory features complete
@@ -107,9 +107,9 @@ Key Results:
 
 Outcome: These are mostly delivered not realised, numerical yes, measurable yes, but zero multiplier on multiple paths => poor scores.
 
-![KR1 Scoring](/paulblay-hugo/img/OKR_Scorecard/2022-01-01-22_18_36-Window_2.png)
+![KR1 Scoring](/img/OKR_Scorecard/2022-01-01-22_18_36-Window_2.png)
 
-![KR2 Scoring](/paulblay-hugo/img/OKR_Scorecard/2022-01-01-22_21_46-Window_3.png)
+![KR2 Scoring](/img/OKR_Scorecard/2022-01-01-22_21_46-Window_3.png)
 
 ### OKR 2
 Objective: TownTalk makes highstreets more vibrant and social than ever before.  
@@ -121,16 +121,16 @@ Objective: TownTalk makes highstreets more vibrant and social than ever before.
 
 Total Objective score: **48/60**
 
-![OKR2 Objective Scoring](/paulblay-hugo/img/OKR_Scorecard/OKR2_objective_1.png)
+![OKR2 Objective Scoring](/img/OKR_Scorecard/OKR2_objective_1.png)
 
 Key Results and their scores:
 1. **Highstreet visits from 1 to 10/month**: **144/160**
 2. **Users from 100 to 1000**: **96/160**
 3. **Community interaction score 8/10**: **80/160**
 
-![KR1 Scoring](/paulblay-hugo/img/OKR_Scorecard/OKR2_KR1.png)
-![KR2 Scoring](/paulblay-hugo/img/OKR_Scorecard/OKR2_KR2.png)
-![KR3 Scoring](/paulblay-hugo/img/OKR_Scorecard/OKR2_KR3.png)
+![KR1 Scoring](/img/OKR_Scorecard/OKR2_KR1.png)
+![KR2 Scoring](/img/OKR_Scorecard/OKR2_KR2.png)
+![KR3 Scoring](/img/OKR_Scorecard/OKR2_KR3.png)
 
 ## Improvements moving forward
 
@@ -144,6 +144,6 @@ This is my first attempt at an OKR scorecard and I hope there’s some value in 
 
 Here’s the scorecard sheet if you'd like to try your own scoring:
 
-[Download the OKR Scorecard (Excel)](/paulblay-hugo/img/OKR_Scorecard/OKRs-scorecard.xlsx)
+[Download the OKR Scorecard (Excel)](/img/OKR_Scorecard/OKRs-scorecard.xlsx)
 
 Thanks for reading!
