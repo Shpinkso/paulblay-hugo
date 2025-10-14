@@ -30,15 +30,63 @@ Here's the odd thing - the teams had some of the best engineers in the building.
 
 There were a lot of actions taken to try and get things into shape, including: Organisational design, role clarification, building relationships, adapting process, etc - but here I'm just going to detail the switch from task focus to outcome focus.
 
-The task at hand was to define an objective with inputs from 
+The task at hand was to define an objective considering the customer needs, technology stack available, group capability and RoI. Then find a low cost way to measure our progress towards this objective.
+
 
 # Action
+
+Consulting and working alongside marketing, product, engineering and the wider business, I fomulated a strategy and initial OKR to win busines with our new SOC platform.
+
+## The Strategy
+
+Along with marketing I built a strategic approach, using a framework from [Good Strategy/Bad Strategy](https://share.google/l4GZTEDsFd5E4DPz5) by Richard P. Rumelt.
+
+---
+**Diagnosis:** Customers can't differentiate with
+
+our products, want to extend to smart/connected solutions
+
+and we want to quickly showcase new capability
+
+without compromising on practice.​
+
+**Guiding Policy:** Provide an SDK for customers to
+
+differentiate and extend existing functionality.
+
+---
+
+The SDK would allow customers (or our FAEs) to deploy their own simple applications to our product in order to differenciate, using capability and expertise already existing within the engineering teams - employing cloud infrastructure from previous projects to manage app deployment during development.
+
+The first action of which was to create the OKR.
+
+---
+## The OKR
+
+Here's what we came up with:
+**Objective:** Customer Design-in for our new SoC
+
+**KR1:** Customer application prototype deployments per week​
+
+**KR2:** Number of customers actively deploying​ per week
+
+**KR3:** Customers requested meetings with us on integrating our solution
+
+---
+
+### Testing The Maturity
+
+More "putting ideas to real world use" here. How does our new OKR stack up againt the creteria in the [OKR Scorecard](https://paulblay.com/blog/2021/04/05/the-okr-scorecard/)?
+
+#### Objective
+
+
 
 # Result
 
 # Lessons Learned
 
-### Key Result Scoring
+***Key Result Scoring***
 Out of ten, score:
 - Is “realised” as opposed to “delivered”
 - I would consider reaching this as a significant aspect of the objective complete
