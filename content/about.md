@@ -3,7 +3,7 @@ date = "2025-10-01"
 title = "About me"
 +++
 
-![Me](/paulblay-hugo/img/me.jpg)
+![Me](/img/me.jpg)
 
 ---
 
