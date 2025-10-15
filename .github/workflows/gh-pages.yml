@@ -129,6 +129,7 @@ jobs:
             --max-concurrency 20
             --accept 200..299,403
             --exclude "https://bootstrapious.com/universal-business-e-commerce-template"
-            https://shpinkso.github.io/${{ github.event.repository.name }}/previews/${{ steps.slug.outputs.val }}/
+            --base "https://shpinkso.github.io/${{ github.event.repository.name }}/previews/${{ steps.slug.outputs.val }}/"
+            ./public/**/*.html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
