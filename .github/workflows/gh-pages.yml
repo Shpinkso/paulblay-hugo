@@ -37,6 +37,7 @@ jobs:
                --baseURL "https://shpinkso.github.io/${{ github.event.repository.name }}/previews/${{ steps.slug.outputs.val }}/"
 
       - name: Publish to gh-pages (keep other previews)
+        id: publish
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -46,6 +47,16 @@ jobs:
           keep_files: true
           commit_message: "Preview ${{ steps.slug.outputs.val }} @ ${{ github.sha }}"
 
+      - name: Record publish timestamp
+        id: publish_started
+        shell: bash
+        run: |
+          timestamp="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          if [[ -z "${timestamp}" ]]; then
+            echo "::error::Unable to determine publish timestamp"
+            exit 1
+          fi
+          printf 'timestamp=%s\n' "$timestamp" >> "$GITHUB_OUTPUT"
 
       - name: Wait for GitHub Pages deployment
         uses: actions/github-script@v7
@@ -53,11 +64,16 @@ jobs:
           PUBLISH_STARTED: ${{ steps.publish_started.outputs.timestamp }}
         with:
           script: |
-            const startedAt = Date.parse(process.env.PUBLISH_STARTED || '');
-            if (Number.isNaN(startedAt)) {
-              core.setFailed(`Invalid publish start timestamp: "${process.env.PUBLISH_STARTED}"`);
-              return;
+            const fallbackNow = new Date();
+            const startedAtString = process.env.PUBLISH_STARTED;
+            let startedAt = Date.parse(startedAtString || '') || fallbackNow.getTime();
+            if (!startedAtString) {
+              core.warning('Publish timestamp was empty; falling back to the current time.');
+            } else if (Number.isNaN(Date.parse(startedAtString))) {
+              core.warning(`Publish timestamp "${startedAtString}" was invalid; falling back to the current time.`);
+              startedAt = fallbackNow.getTime();
             }
+            core.info(`Waiting for GitHub Pages builds updated after ${new Date(startedAt).toISOString()}.`);
 
             const owner = context.repo.owner;
             const repo = context.repo.repo;
