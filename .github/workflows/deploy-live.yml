@@ -7,7 +7,6 @@ permissions:
   contents: read
 
 jobs:
-  build:
   require-successful-preview:
     runs-on: ubuntu-latest
     steps:
