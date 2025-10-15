@@ -131,5 +131,6 @@ jobs:
             --exclude "https://bootstrapious.com/universal-business-e-commerce-template"
             --base "https://shpinkso.github.io/${{ github.event.repository.name }}/previews/${{ steps.slug.outputs.val }}/"
             ./public/**/*.html
+            ./content/**/*.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
