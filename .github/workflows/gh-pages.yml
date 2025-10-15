@@ -49,6 +49,7 @@ jobs:
       - name: Verify published preview links
         uses: lycheeverse/lychee-action@v1
         with:
+          fail: 'true'
           args: >-
             --no-progress
             --retry-wait-time 5
