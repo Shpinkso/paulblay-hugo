@@ -3,7 +3,7 @@ title = "Aligning Teams With Outcomes - A Product Application"
 date = "2025-10-13T11:37:12+01:00"
 tags = ["Application"]
 categories = ["outcomes","metrics"]
-banner = "img/banners/product_outcomes-1.jpg"
+banner = "img/banners/product_outcomes.jpg"
 authors = ["Paul Blay"]
 +++
 
@@ -39,7 +39,7 @@ Consulting and working alongside marketing, product, engineering and the wider b
 
 ## The Strategy
 
-Along with marketing I built a strategic approach, using a framework from [Good Strategy/Bad Strategy](https://share.google/l4GZTEDsFd5E4DPz5) by Richard P. Rumelt.
+Along with marketing I built a strategic approach, using a framework from [Good Strategy/Bad Strategy](https://share.google/l4GZTEDsFd5E4DPz5_bad) by Richard P. Rumelt.
 
 ---
 **Diagnosis:** 
