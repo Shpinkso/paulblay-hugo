@@ -35,33 +35,33 @@ Getting things set up was easy enough, just connect to github and select the rep
 
 ### Interaction
 
-1. Starting with asking it to help me check for broken links or image references across my site during the preview pipeline, it picks Lychee as the tool and correctly identifies the pipeline to make changes in. 👍
+**1. Starting with asking it to help me check for broken links or image references across my site during the preview pipeline, it picks Lychee as the tool and correctly identifies the pipeline to make changes in.** 👍
 
 ... but it gets the lychee syntax wrong for html return codes to accept - checking the Lychee documentation myself, it's clear that it's wrong. 👎
 
-2. Easy fix though, now lychee moves on to not being able to find (any?) files.
+**2. Easy fix though, now lychee moves on to not being able to find (any?) files.**
 
 and this is where Codex starts heading off into no mans land. I'm not an expert in github workflows but it seems to go ahead with an attempt to create effectively a hard coded pre-preview site that we can run the lychee tool over.
 
-3. At this point, I just copy/paste the many pages of errors coming from the workflow - I'm not even sure what's going on now.
+**3. At this point, I just copy/paste the many pages of errors coming from the workflow - I'm not even sure what's going on now.**
 
 Ok, it thinks, we just need to change or add these 400 lines across 9 files. Repace a bunch of layout formatting across headers, footers, scripts, categories, search and tags, then our pre-preview will be well again.
 
-4. This is a hard no from me. Replacing or altering layout formatting across my site in order to create a pre-preview sounds like a recipe for disaster. I ask it to think of other solutions, suggesting lychee checks after the preview is published or prior to the live publish step in my deployment pipeline.
+**4. This is a hard no from me. Replacing or altering layout formatting across my site in order to create a pre-preview sounds like a recipe for disaster. I ask it to think of other solutions, suggesting lychee checks after the preview is published or prior to the live publish step in my deployment pipeline.**
 
 It moves the lychee checks to the manual live publish workflow, which is fine-ish, but
 
-5. I want earlier information on problems, can we add it to the preview job, just after the preview site is published? That job gets triggered on every push to origin, so I'll see problems sooner.
+**5. I want earlier information on problems, can we add it to the preview job, just after the preview site is published? That job gets triggered on every push to origin, so I'll see problems sooner.**
 
 It adds the lychee check to my preview site workflow, at the end.
 
 We're now duplicating the checks across both live and preview workflows. 👎
 
-6. Let's not duplcate, get the live to check the result of the latest preview run and only permit if it passed.
+**6. Let's not duplcate, get the live to check the result of the latest preview run and only permit if it passed.**
 
 Done.
 
-7. Here's where I start to get too disillusioned to continue. Codex makes suggestions that trigger a gut feeling that it's not considering other causes for what I'm reporting. After a couple more tries, I move to manual debugging and ChatGPT support.
+**7. Here's where I start to get too disillusioned to continue. Codex makes suggestions that trigger a gut feeling that it's not considering other causes for what I'm reporting. After a couple more tries, I move to manual debugging and ChatGPT support.**
 
 Here were some of the problems that Codex couldn't/didn't identify.
 
