@@ -23,7 +23,7 @@ Well, I've had over 10 years of experience as a developer, but it was a long tim
 
 _disclaimer:_ Based on my experience using LLMs for other things, on top of my experience with developing code in general - my expectation was that vibe coding would likely increase speed initially (I don't have to learn the subject deeply), but with a rapidly growing cost of maintenance (I didn't learn the subject deeply).
 
-I'd used plain old chatGPT for help with a few things, such as formatting my markdown tables more clearly. It did the job, but only after many (man) iterations and me reigning it back sometimes with overly audacious changes. Regardless, it was certainly a lot quicker than me learning html, hugo and the theme I was using, well enough to solve the problem myself.
+I'd used plain old chatGPT for help with a few things, such as formatting my markdown tables more clearly. It did the job, but only after many (many) iterations and me reigning it back sometimes with overly audacious changes. Regardless, it was certainly a lot quicker than me learning html, hugo and the theme I was using, well enough to solve the problem myself.
 
 ## Promting to Codex
 
@@ -35,7 +35,9 @@ Getting things set up was easy enough, just connect to github and select the rep
 
 ### Interaction
 
-**1. Starting with asking it to help me check for broken links or image references across my site during the preview pipeline, it picks Lychee as the tool and correctly identifies the pipeline to make changes in.** 👍
+**1. Starting with asking it to help me check for broken links or image references across my site during the preview pipeline**
+
+it picks Lychee as the tool and correctly identifies the pipeline to make changes in. 👍
 
 ... but it gets the lychee syntax wrong for html return codes to accept - checking the Lychee documentation myself, it's clear that it's wrong. 👎
 
