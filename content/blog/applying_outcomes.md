@@ -39,7 +39,7 @@ Consulting and working alongside marketing, product, engineering and the wider b
 
 ## The Strategy
 
-Along with marketing I built a strategic approach, using a framework from [Good Strategy/Bad Strategy](https://share.google/l4GZTEDsFd5E4DPz5) by Richard P. Rumelt.
+Along with marketing I built a strategic approach, using a framework from [Good Strategy/Bad Strategy](https://share.googlee/l4GZTEDsFd5E4DPz5) by Richard P. Rumelt.
 
 ---
 **Diagnosis:** 
