@@ -33,8 +33,23 @@ jobs:
 
       - name: Build (Preview)
         run: |
-          hugo --minify --environment preview \
+          hugo --panicOnWarning --minify --environment preview \
                --baseURL "https://shpinkso.github.io/${{ github.event.repository.name }}/previews/${{ steps.slug.outputs.val }}/"
+
+
+      - name: Check for broken links and images
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: >-
+            --no-progress
+            --base "./public"
+            --retry-wait-time 2
+            --max-concurrency 20
+            --exclude-mail
+            --accept 200-299,403
+            ./public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to gh-pages (keep other previews)
         uses: peaceiris/actions-gh-pages@v3
