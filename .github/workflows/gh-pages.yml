@@ -37,6 +37,19 @@ jobs:
                --baseURL "https://shpinkso.github.io/${{ github.event.repository.name }}/previews/${{ steps.slug.outputs.val }}/"
 
 
+      - name: Prepare site paths for link checking
+        run: |
+          slug='${{ steps.slug.outputs.val }}'
+          pushd public
+          ln -sfn . "${{ github.event.repository.name }}"
+          mkdir -p previews
+          dir="$(dirname "$slug")"
+          if [ "$dir" != "." ]; then
+            mkdir -p "previews/$dir"
+          fi
+          ln -sfn .. "previews/$slug"
+          popd
+
       - name: Check for broken links and images
         uses: lycheeverse/lychee-action@v1
         with:
@@ -50,6 +63,19 @@ jobs:
             ./public
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Clean up link-check paths
+        if: ${{ always() }}
+        run: |
+          slug='${{ steps.slug.outputs.val }}'
+          rm -f "public/${{ github.event.repository.name }}"
+          rm -f "public/previews/$slug"
+          dir="public/previews/$slug"
+          while [ "$dir" != "public/previews" ]; do
+            dir="$(dirname "$dir")"
+            rmdir "$dir" 2>/dev/null || break
+          done
+          rmdir public/previews 2>/dev/null || true
 
       - name: Publish to gh-pages (keep other previews)
         uses: peaceiris/actions-gh-pages@v3
