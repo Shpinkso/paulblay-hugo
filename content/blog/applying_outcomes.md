@@ -3,7 +3,7 @@ title = "Aligning Teams With Outcomes - A Product Application"
 date = "2025-10-13T11:37:12+01:00"
 tags = ["Application"]
 categories = ["outcomes","metrics"]
-banner = "img/banners/product_outcomes.jpg"
+banner = "img/banners/product_outcomes-1.jpg"
 authors = ["Paul Blay"]
 +++
 
