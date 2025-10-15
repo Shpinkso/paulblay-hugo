@@ -65,7 +65,7 @@ Done.
 
 Here were some of the problems that Codex couldn't/didn't identify.
 
-* The Hugo build step of the preview workflow was running asynchronously and puclished the preview site I wanted to check prior to the checks being run. Errors were always one run behind.
+* The Hugo build step of the preview workflow was running asynchronously and published the preview site I wanted to check prior to the checks being run. Errors were always one run behind.
 * Codex was pinning an old version of Lychee, chatGPT picked this up straight away and recommended using the newer one. Why didn't Codex do that?
 * The Codex generated code was not scanning .md files, only html. So it was missing all my blog posts.
 
